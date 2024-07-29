@@ -1,0 +1,34 @@
+---
+version: 0.1
+globalTimeout: 90
+testSuiteTimeout: 90
+testSuiteStep: 90
+
+retryOnFailure: false
+maxRetries: 1
+
+runson: linux
+
+appium: true
+
+autosplit: true
+concurrency: 5
+parallelism: 3
+
+pre:
+  - mvn -Dmaven.repo.local=./.m2 dependency:resolve
+
+matrix:
+  os: [android, ios]
+
+runtime:
+  language: node
+  version: 18
+
+testDiscovery:
+  type: raw
+  mode: dynamic
+  command: grep 'test name' src/test/java/$os-parallel.xml | awk '{print$2}' | sed 's/name=//g' | sed 's/\x3e//g'
+testRunnerCommand: mvn test -Dmaven.repo.local=./.m2 dependency:resolve -DselectedTests=$test -Dos=$os -Phyperexecute-hybrid 
+
+jobLabel: ['android','iOS', 'appium', 'hybrid']

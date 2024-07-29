@@ -1,0 +1,25 @@
+version: 0.2
+globalTimeout: 150
+testSuiteTimeout: 150
+testSuiteStep: 150
+
+runson: linux
+
+concurrency: 3
+
+autosplit: true
+
+retryOnFailure: false
+maxRetries: 1
+
+pre:
+  - mvn -Dmaven.repo.local=./.m2 dependency:resolve
+
+appium: true
+framework:
+  name: maven/testng
+  defaultReports: false
+  discoveryType: xmltest
+  flags: ["-Pios-parallel"]
+
+jobLabel: ['HYP-RD', 'iOS', 'Multiple Device']
