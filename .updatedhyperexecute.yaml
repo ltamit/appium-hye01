@@ -1,0 +1,126 @@
+version: "0.2"
+user: amitwalia
+key: RzTpUqm4BFm0TS3QBGSvwtZmAkhFgVWq47mBmFhJA06t1TEpYH
+testSuites: []
+pre: ['mvn -Dmaven.repo.local=./.m2 dependency:resolve']
+preDirectives:
+    commands: ['mvn -Dmaven.repo.local=./.m2 dependency:resolve']
+    maxRetries: 0
+    shell: ""
+    workingDirectory: ""
+postDirectives:
+    commands: []
+    shell: ""
+    workingDirectory: ""
+jobLabel:
+    - HYP-RD
+    - Android
+    - High
+runson: linux
+autosplit: true
+concurrency: 3
+testDiscoveryResult:
+    - Test_Notification_GeoLocation
+    - Test_Text_And_Toast
+    - Test_Change_Color
+testDiscoveryResult2D:
+    - - Test_Notification_GeoLocation
+    - - Test_Text_And_Toast
+    - - Test_Change_Color
+globalTimeout: 150
+tunnelOpts:
+    testsPerTunnel: 10
+testSuiteTimeout: 150
+testSuiteStep: 150
+retryOnFailure: true
+maxRetries: 6
+jobID: 421c3eae-bc97-4f50-96db-63ec3c06f37d
+codeDirectory: hyperexecute-appium-testng
+framework:
+    name: maven/testng
+    flags:
+        - -Pandroid-single
+    discoveryFlags: []
+    discoveryMode: local
+    discoveryType: xmltest
+    runnerFlags: []
+    workingDirectory: ""
+    isTestNGXMLSuite: true
+    defaultReports: false
+    args:
+        appPath: ""
+        testSuitePath: ""
+        xcTestPlanPath: ""
+        shards:
+            mappings: []
+        filters:
+            attributes: []
+        devices: []
+        deviceSelectionStrategy: ""
+        appId: ""
+        testSuiteAppId: ""
+        xcTestPlanId: ""
+        video: true
+        deviceLog: true
+        reservation: false
+        skipXMLOnRun: false
+        skipInstall: false
+        disableReleaseDevice: false
+        platformName: ""
+        isRealMobile: false
+        avoidAppLaunch: false
+        queueTimeout: 0
+        uninstallPreviousBuild: false
+        language: ""
+        locale: ""
+        preservedDevice: false
+        fixedIP: ""
+        resignApp: true
+        minorOsVersion: false
+        playwrightRD: false
+        mobileDC: true
+        skipUninstallPreviousBuild: false
+        isVirtualDevice: false
+        mitmProxy: false
+        networkHar: false
+        artifacts: false
+    additional_args: null
+    licenseKey: ""
+    userdefinediscovery: false
+    toscaArgs: null
+    version: ""
+    downloadURL: ""
+    baseCommand: ""
+cypress: false
+betaFeature:
+    setPartiallyCompletedAsCompleted: false
+testType: android/appium
+combineTasksInMatrixMode: false
+captureScreenRecordingForScenarios: false
+maxRetriesPreSteps: 0
+triggerMode: false
+sourcePayload:
+    verifySSL: true
+collectLocalGitData: true
+dynamicAllocation: false
+appium: true
+platformConfig: null
+differentialUpload:
+    enabled: false
+    ttlHours: null
+    forcedDisabled: false
+project:
+    id: ""
+    name: ""
+    type: default
+meta: {}
+alwaysRunPostSteps: false
+errorCategorizedOnFailureOnly: false
+testDiscoveryResultV3: []
+storageType: ""
+localHTTPProxy: ""
+regionConfig: []
+waitForArtefactsUpload: false
+unzipPayload: false
+accessibilityJob: false
+slackChannel: ""

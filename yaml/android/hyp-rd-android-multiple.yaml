@@ -9,8 +9,8 @@ concurrency: 5
 
 autosplit: true
 
-retryOnFailure: false
-maxRetries: 1
+retryOnFailure: true
+maxRetries: 6
 
 pre:
   - mvn -Dmaven.repo.local=./.m2 dependency:resolve
@@ -22,4 +22,4 @@ framework:
   discoveryType: xmltest
   flags: ["-Pandroid-parallel"]
 
-jobLabel: ['HYP-RD', 'Android', 'Multiple Device']
+jobLabel: ['HYP-RD', 'Android', 'Multiple Device', 'High']

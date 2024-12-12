@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-12T13:42:30 IST" name="Mobile" finished-at="2024-12-12T13:42:30 IST" duration-ms="92">
+    <groups>
+    </groups>
+    <test started-at="2024-12-12T13:42:30 IST" name="Test_Change_Color" finished-at="2024-12-12T13:42:30 IST" duration-ms="17">
+    </test> <!-- Test_Change_Color -->
+    <test started-at="2024-12-12T13:42:30 IST" name="Test_Text_And_Toast" finished-at="2024-12-12T13:42:30 IST" duration-ms="1">
+    </test> <!-- Test_Text_And_Toast -->
+    <test started-at="2024-12-12T13:42:30 IST" name="Test_Notification_GeoLocation" finished-at="2024-12-12T13:42:30 IST" duration-ms="1">
+    </test> <!-- Test_Notification_GeoLocation -->
+  </suite> <!-- Mobile -->
+</testng-results>

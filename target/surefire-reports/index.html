@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Mobile" class="navigator-link">
+              <span class="suite-name border-failed">Mobile</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Mobile" class="navigator-link ">
+                    <span>D:\demos\hyperexecute\appium01\hyperexecute-appium-testng\src\test\java\android-single.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Mobile" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Mobile" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Mobile" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Mobile" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Mobile" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Mobile" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Mobile" class="hide-methods failed suite-Mobile"> (hide)</a> <!-- hide-methods failed suite-Mobile -->
+                      <a href="#" panel-name="suite-Mobile" class="show-methods failed suite-Mobile"> (show)</a> <!-- show-methods failed suite-Mobile -->
+                    </span>
+                    <div class="method-list-content failed suite-Mobile">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Mobile" title="TestNotificationAndGeoLocation" class="method navigator-link" hash-for-method="testNotificationAndGeoLocation">testNotificationAndGeoLocation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Mobile -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Mobile" class="hide-methods passed suite-Mobile"> (hide)</a> <!-- hide-methods passed suite-Mobile -->
+                      <a href="#" panel-name="suite-Mobile" class="show-methods passed suite-Mobile"> (show)</a> <!-- show-methods passed suite-Mobile -->
+                    </span>
+                    <div class="method-list-content passed suite-Mobile">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Mobile" title="TestChangeColor" class="method navigator-link" hash-for-method="testChangeColor">testChangeColor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Mobile" title="TestTextAndToast" class="method navigator-link" hash-for-method="testTextAndToast">testTextAndToast</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Mobile -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Mobile" class="panel Mobile">
+          <div class="suite-Mobile-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestNotificationAndGeoLocation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotificationAndGeoLocation">
+                  </a> <!-- testNotificationAndGeoLocation -->
+                  <span class="method-name">testNotificationAndGeoLocation</span>
+                  <div class="stack-trace">java.lang.RuntimeException: Test testNotificationAndGeoLocation failed: The element &apos;By.id: com.lambdatest.proverbial:id/notification&apos; does not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LT-LP-227&apos;, ip: &apos;192.168.29.232&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {adbExecTimeout: 120000, appActivity: com.lambdatest.proverbial.M..., appPackage: com.lambdatest.proverbial, autoAcceptAlerts: true, automationName: uiautomator2, chromeOptions: {args: []}, chromedriverExecutableDir: /appium/assets/drivers/chro..., chromedriverPorts: [[11001, 11049]], databaseEnabled: false, desired: {adbExecTimeout: 120000, appActivity: com.lambdatest.proverbial.M..., appPackage: com.lambdatest.proverbial, autoAcceptAlerts: true, automationName: uiautomator2, chromeOptions: {args: []}, chromedriverExecutableDir: /appium/assets/drivers/chro..., chromedriverPorts: [[11001, 11049]], deviceName: Galaxy S23+, headless: false, mode: cloud, nativeWebScreenshot: true, newCommandTimeout: 0, orientation: PORTRAIT, platformName: android, platformVersion: 13, skipLogcatCapture: true, systemPort: 12154, udid: RZCW20S8H4N, uiautomator2ServerLaunchTimeout: 60000, waitForQuiescence: false}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-S916B, deviceName: RZCW20S8H4N, deviceScreenDensity: 450, deviceScreenSize: 1080x2340, deviceUDID: RZCW20S8H4N, headless: false, javascriptEnabled: true, locationContextEnabled: false, mode: cloud, nativeWebScreenshot: true, networkConnectionEnabled: true, newCommandTimeout: 0, orientation: PORTRAIT, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, skipLogcatCapture: true, statBarHeight: 74, systemPort: 12154, takesScreenshot: true, udid: RZCW20S8H4N, uiautomator2ServerLaunchTimeout: 60000, viewportRect: {height: 2057, left: 0, top: 74, width: 1080}, waitForQuiescence: false, warnings: {}, webStorageEnabled: false}
+Session ID: 31a09cbe-391f-43e1-b579-1f9d788697d9
+	at TestNotificationAndGeoLocation.testNotificationAndGeoLocation(TestNotificationAndGeoLocation.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.openqa.selenium.StaleElementReferenceException: The element &apos;By.id: com.lambdatest.proverbial:id/notification&apos; does not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LT-LP-227&apos;, ip: &apos;192.168.29.232&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {adbExecTimeout: 120000, appActivity: com.lambdatest.proverbial.M..., appPackage: com.lambdatest.proverbial, autoAcceptAlerts: true, automationName: uiautomator2, chromeOptions: {args: []}, chromedriverExecutableDir: /appium/assets/drivers/chro..., chromedriverPorts: [[11001, 11049]], databaseEnabled: false, desired: {adbExecTimeout: 120000, appActivity: com.lambdatest.proverbial.M..., appPackage: com.lambdatest.proverbial, autoAcceptAlerts: true, automationName: uiautomator2, chromeOptions: {args: []}, chromedriverExecutableDir: /appium/assets/drivers/chro..., chromedriverPorts: [[11001, 11049]], deviceName: Galaxy S23+, headless: false, mode: cloud, nativeWebScreenshot: true, newCommandTimeout: 0, orientation: PORTRAIT, platformName: android, platformVersion: 13, skipLogcatCapture: true, systemPort: 12154, udid: RZCW20S8H4N, uiautomator2ServerLaunchTimeout: 60000, waitForQuiescence: false}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-S916B, deviceName: RZCW20S8H4N, deviceScreenDensity: 450, deviceScreenSize: 1080x2340, deviceUDID: RZCW20S8H4N, headless: false, javascriptEnabled: true, locationContextEnabled: false, mode: cloud, nativeWebScreenshot: true, networkConnectionEnabled: true, newCommandTimeout: 0, orientation: PORTRAIT, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, skipLogcatCapture: true, statBarHeight: 74, systemPort: 12154, takesScreenshot: true, udid: RZCW20S8H4N, uiautomator2ServerLaunchTimeout: 60000, viewportRect: {height: 2057, left: 0, top: 74, width: 1080}, waitForQuiescence: false, warnings: {}, webStorageEnabled: false}
+Session ID: 31a09cbe-391f-43e1-b579-1f9d788697d9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
+	at TestNotificationAndGeoLocation.testNotificationAndGeoLocation(TestNotificationAndGeoLocation.java:47)
+	... 21 more
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mobile-class-failed -->
+          <div class="suite-Mobile-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestChangeColor</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testChangeColor">
+                  </a> <!-- testChangeColor -->
+                  <span class="method-name">testChangeColor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mobile-class-passed -->
+          <div class="suite-Mobile-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestTextAndToast</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTextAndToast">
+                  </a> <!-- testTextAndToast -->
+                  <span class="method-name">testTextAndToast</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mobile-class-passed -->
+        </div> <!-- panel Mobile -->
+        <div panel-name="test-xml-Mobile" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\demos\hyperexecute\appium01\hyperexecute-appium-testng\src\test\java\android-single.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;100&quot; parallel=&quot;tests&quot; name=&quot;Mobile&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;100&quot; parallel=&quot;tests&quot; name=&quot;Test_Change_Color&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;11&quot;/&gt;
+    &lt;parameter name=&quot;device&quot; value=&quot;Galaxy.*&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Android&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestChangeColor&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test_Change_Color --&gt;
+  &lt;test thread-count=&quot;100&quot; parallel=&quot;tests&quot; name=&quot;Test_Text_And_Toast&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;12&quot;/&gt;
+    &lt;parameter name=&quot;device&quot; value=&quot;Pixel.*&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Android&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestTextAndToast&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test_Text_And_Toast --&gt;
+  &lt;test thread-count=&quot;100&quot; parallel=&quot;tests&quot; name=&quot;Test_Notification_GeoLocation&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;13&quot;/&gt;
+    &lt;parameter name=&quot;device&quot; value=&quot;Galaxy.*&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Android&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestNotificationAndGeoLocation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test_Notification_GeoLocation --&gt;
+&lt;/suite&gt; &lt;!-- Mobile --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Mobile" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Mobile</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test_Change_Color (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test_Text_And_Toast (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test_Notification_GeoLocation (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Mobile" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Mobile</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Mobile" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Mobile</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Mobile');
+function tableData_Mobile() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testNotificationAndGeoLocation')
+data.setCell(0, 2, 'TestNotificationAndGeoLocation')
+data.setCell(0, 3, 4117);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testTextAndToast')
+data.setCell(1, 2, 'TestTextAndToast')
+data.setCell(1, 3, 3986);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testChangeColor')
+data.setCell(2, 2, 'TestChangeColor')
+data.setCell(2, 3, 3682);
+window.suiteTableData['Mobile']= { tableData: data, tableDiv: 'times-div-Mobile'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 27 seconds</span>
+              <div id="times-div-Mobile">
+              </div> <!-- times-div-Mobile -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Mobile" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Mobile</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Mobile" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Mobile" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestChangeColor</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Galaxy.*, 11, Android)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestTextAndToast</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Pixel.*, 12, Android)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNotificationAndGeoLocation</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Galaxy.*, 13, Android)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testNotificationAndGeoLocation</span>
+                <span class="method-start">20414 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestTextAndToast</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testTextAndToast</span>
+                <span class="method-start">20816 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestChangeColor</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testChangeColor</span>
+                <span class="method-start">23270 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNotificationAndGeoLocation</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">24544 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestTextAndToast</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">24802 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestChangeColor</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">26952 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

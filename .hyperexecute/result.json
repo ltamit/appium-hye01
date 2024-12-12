@@ -1,0 +1,263 @@
+{
+    "id": "421c3eae-bc97-4f50-96db-63ec3c06f37d",
+    "created_at": "2024-12-12T08:12:32Z",
+    "update_at": "2024-12-12T08:16:36Z",
+    "global_timeout": 150,
+    "tunnel_name": "",
+    "start_time": "2024-12-12T08:13:01Z",
+    "end_time": "2024-12-12T08:16:36Z",
+    "summary": {
+        "total_time": 215000000000,
+        "execution_time": 215000000000,
+        "total_tasks": 3,
+        "build_time_consumed": 388000000000,
+        "jobTestExecutionTime": "2m48s",
+        "failed_tasks": 1,
+        "total_stage_info": {
+            "prerun": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 3
+            },
+            "scenario": {
+                "StageFailedPercent": 66.666664,
+                "StagePassPercent": 33.333332,
+                "TotalStage": 3
+            },
+            "test_discovery": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 3
+            }
+        },
+        "status": "failed",
+        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=421c3eae-bc97-4f50-96db-63ec3c06f37d"
+    },
+    "tasks": [
+        {
+            "id": "385e2d6a-f1b3-4cfa-a43c-5b0e7a337196",
+            "os": "linux",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2024-12-12T08:12:59Z",
+            "update_at": "2024-12-12T08:14:00Z",
+            "start_time": "2024-12-12T08:13:02Z",
+            "end_time": "2024-12-12T08:14:00Z",
+            "group_number": 1,
+            "stages": [
+                {
+                    "id": "3076011c-feb7-45ec-bd74-68a16d7b348e",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2024-12-12T08:13:07Z",
+                    "started_at": "2024-12-12T08:13:07Z",
+                    "updated_at": "2024-12-12T08:13:14Z",
+                    "order": 2,
+                    "task_number": 1
+                },
+                {
+                    "id": "511d92e9-d0a4-4927-a1f9-c72b4a33af56",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2024-12-12T08:13:14Z",
+                    "started_at": "2024-12-12T08:13:14Z",
+                    "updated_at": "2024-12-12T08:13:15Z",
+                    "order": 3,
+                    "task_number": 1
+                },
+                {
+                    "id": "58c45aea-87d8-495a-93b4-19d5a7619f73",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "Test_Change_Color",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2024-12-12T08:13:15Z",
+                    "started_at": "2024-12-12T08:13:23Z",
+                    "updated_at": "2024-12-12T08:13:55Z",
+                    "order": 4,
+                    "task_number": 1
+                }
+            ]
+        },
+        {
+            "id": "36faa1b4-2b23-444b-8b3b-662029588da0",
+            "os": "linux",
+            "status": "failed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2024-12-12T08:12:59Z",
+            "update_at": "2024-12-12T08:14:57Z",
+            "start_time": "2024-12-12T08:13:02Z",
+            "end_time": "2024-12-12T08:14:57Z",
+            "group_number": 2,
+            "stages": [
+                {
+                    "id": "44c2295a-a40c-438c-b3f5-61e5c0904e19",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2024-12-12T08:13:07Z",
+                    "started_at": "2024-12-12T08:13:07Z",
+                    "updated_at": "2024-12-12T08:13:14Z",
+                    "order": 2,
+                    "task_number": 2
+                },
+                {
+                    "id": "47f72e92-6e96-430a-bfb7-6b34d3616455",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2024-12-12T08:13:14Z",
+                    "started_at": "2024-12-12T08:13:14Z",
+                    "updated_at": "2024-12-12T08:13:15Z",
+                    "order": 3,
+                    "task_number": 2
+                },
+                {
+                    "id": "51d51f7c-965b-4ba1-8fd2-19fe0c0baa06",
+                    "type": "scenario",
+                    "status": "failed",
+                    "name": "Test_Text_And_Toast",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2024-12-12T08:13:15Z",
+                    "started_at": "2024-12-12T08:13:28Z",
+                    "updated_at": "2024-12-12T08:14:52Z",
+                    "order": 4,
+                    "task_number": 2
+                }
+            ]
+        },
+        {
+            "id": "2a2cc657-5f75-4431-a2bc-be8b452476f9",
+            "os": "linux",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2024-12-12T08:12:59Z",
+            "update_at": "2024-12-12T08:16:36Z",
+            "start_time": "2024-12-12T08:13:01Z",
+            "end_time": "2024-12-12T08:16:36Z",
+            "group_number": 3,
+            "stages": [
+                {
+                    "id": "12818f0c-0222-43b3-a0bd-a60897aae5a1",
+                    "type": "scenario",
+                    "status": "failed",
+                    "name": "Test_Notification_GeoLocation",
+                    "iteration": 4,
+                    "link": "command.1.4.log",
+                    "created_at": "2024-12-12T08:15:32Z",
+                    "started_at": "2024-12-12T08:15:32Z",
+                    "updated_at": "2024-12-12T08:16:01Z",
+                    "order": 4,
+                    "task_number": 3
+                },
+                {
+                    "id": "21350c26-c3dd-49af-8eba-6e476c42ebd7",
+                    "type": "scenario",
+                    "status": "failed",
+                    "name": "Test_Notification_GeoLocation",
+                    "iteration": 3,
+                    "link": "command.1.3.log",
+                    "created_at": "2024-12-12T08:15:02Z",
+                    "started_at": "2024-12-12T08:15:02Z",
+                    "updated_at": "2024-12-12T08:15:27Z",
+                    "order": 4,
+                    "task_number": 3
+                },
+                {
+                    "id": "3615a5ca-1632-46fe-9b19-c70bffb36e3a",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2024-12-12T08:13:13Z",
+                    "started_at": "2024-12-12T08:13:13Z",
+                    "updated_at": "2024-12-12T08:13:13Z",
+                    "order": 3,
+                    "task_number": 3
+                },
+                {
+                    "id": "5b34eb0b-4cc0-4247-9e98-08ee92c7018a",
+                    "type": "scenario",
+                    "status": "failed",
+                    "name": "Test_Notification_GeoLocation",
+                    "iteration": 2,
+                    "link": "command.1.2.log",
+                    "created_at": "2024-12-12T08:14:32Z",
+                    "started_at": "2024-12-12T08:14:32Z",
+                    "updated_at": "2024-12-12T08:14:57Z",
+                    "order": 4,
+                    "task_number": 3
+                },
+                {
+                    "id": "69a86423-4d2d-42a3-afeb-d87c35c4fc73",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "Test_Notification_GeoLocation",
+                    "iteration": 5,
+                    "link": "command.1.5.log",
+                    "created_at": "2024-12-12T08:16:06Z",
+                    "started_at": "2024-12-12T08:16:06Z",
+                    "updated_at": "2024-12-12T08:16:31Z",
+                    "order": 4,
+                    "task_number": 3
+                },
+                {
+                    "id": "7a6cabfd-0f6d-4f6f-a4e6-6e723cffa3cb",
+                    "type": "scenario",
+                    "status": "failed",
+                    "name": "Test_Notification_GeoLocation",
+                    "iteration": 1,
+                    "link": "command.1.1.log",
+                    "created_at": "2024-12-12T08:13:59Z",
+                    "started_at": "2024-12-12T08:13:59Z",
+                    "updated_at": "2024-12-12T08:14:27Z",
+                    "order": 4,
+                    "task_number": 3
+                },
+                {
+                    "id": "9e7a9451-2fa2-4291-9284-5bd1b9488f10",
+                    "type": "scenario",
+                    "status": "failed",
+                    "name": "Test_Notification_GeoLocation",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2024-12-12T08:13:13Z",
+                    "started_at": "2024-12-12T08:13:22Z",
+                    "updated_at": "2024-12-12T08:13:54Z",
+                    "order": 4,
+                    "task_number": 3
+                },
+                {
+                    "id": "af520d6c-da73-45f6-b609-59d00d37a4b0",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2024-12-12T08:13:06Z",
+                    "started_at": "2024-12-12T08:13:06Z",
+                    "updated_at": "2024-12-12T08:13:12Z",
+                    "order": 2,
+                    "task_number": 3
+                }
+            ]
+        }
+    ],
+    "test_ids": null
+}

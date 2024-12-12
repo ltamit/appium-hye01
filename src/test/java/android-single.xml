@@ -2,50 +2,33 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="100" name="Mobile" parallel="tests">
 
-
-    <test name="AndroidAppTest_1">
+    <test name="Test_Change_Color">
         <parameter name="version" value="11" />
         <parameter name="platform" value="Android" />
-        <parameter name="device" value="Galaxy S21 Ultra 5G" />
+        <parameter name="device" value="Galaxy.*" />
         <classes>
-            <class name="AndroidApp" />
+            <class name="TestChangeColor" />
         </classes>
     </test>
 
-    <test name="AndroidAppTest_2">
+    <test name="Test_Text_And_Toast">
         <parameter name="version" value="12" />
         <parameter name="platform" value="Android" />
-        <parameter name="device" value="Galaxy S21 Ultra 5G" />
+        <parameter name="device" value="Pixel.*" />
         <classes>
-            <class name="AndroidApp" />
+            <class name="TestTextAndToast" />
         </classes>
     </test>
 
-    <test name="AndroidAppTest_3">
+    <test name="Test_Notification_GeoLocation">
         <parameter name="version" value="13" />
         <parameter name="platform" value="Android" />
-        <parameter name="device" value="Galaxy S21 Ultra 5G" />
+        <parameter name="device" value="Galaxy.*" />
         <classes>
-            <class name="AndroidApp" />
+            <class name="TestNotificationAndGeoLocation" />
         </classes>
     </test>
 
-    <test name="AndroidAppTest_4">
-        <parameter name="version" value="14" />
-        <parameter name="platform" value="Android" />
-        <parameter name="device" value="Galaxy S21 Ultra 5G" />
-        <classes>
-            <class name="AndroidApp" />
-        </classes>
-    </test>
 
-    <test name="AndroidAppTest_5">
-        <parameter name="version" value="15" />
-        <parameter name="platform" value="Android" />
-        <parameter name="device" value="Galaxy S21 Ultra 5G" />
-        <classes>
-            <class name="AndroidApp" />
-        </classes>
-    </test>
 
 </suite>

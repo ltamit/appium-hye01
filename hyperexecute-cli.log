@@ -1,0 +1,585 @@
+{"level":"warn","time":"2024-12-12T12:45:36.935+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-12-12T12:45:36.936+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-12-12T12:45:37.566+0530","caller":"cmd/bin.go:121","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-12-12T12:45:38.475+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.239} "}
+{"level":"warn","time":"2024-12-12T12:45:38.476+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-12-12T12:45:38.539+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-12-12T12:45:40.577+0530","caller":"core/lifecycle.go:104","msg":"Setting environment"}
+{"level":"debug","time":"2024-12-12T12:45:40.577+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2024-12-12T12:45:40.577+0530","caller":"yamlconfigmanager/setup.go:605","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/android/hyp-rd-android-multiple.yaml"}
+{"level":"debug","time":"2024-12-12T12:45:40.578+0530","caller":"yamlconfigmanager/setup.go:109","msg":"using hyperexecute config from : yaml/android/hyp-rd-android-multiple.yaml"}
+{"level":"debug","time":"2024-12-12T12:45:42.031+0530","caller":"yamlconfigmanager/setup.go:2306","msg":"Autodetecting test type in files of path : D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng"}
+{"level":"debug","time":"2024-12-12T12:45:42.032+0530","caller":"yamlconfigmanager/setup.go:451","msg":"Tunnel: false"}
+{"level":"info","time":"2024-12-12T12:45:42.032+0530","caller":"models/HypertestYamlConfig.go:730","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2024-12-12T12:45:42.033+0530","caller":"models/HypertestYamlConfig.go:531","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-12-12T12:45:42.033+0530","caller":"models/HypertestYamlConfig.go:591","msg":"Runson:    \u001b[36mlinux\u001b[0m"}
+{"level":"info","time":"2024-12-12T12:45:42.033+0530","caller":"models/HypertestYamlConfig.go:599","msg":"Concurrency:    \u001b[36m5\u001b[0m"}
+{"level":"info","time":"2024-12-12T12:45:42.033+0530","caller":"models/HypertestYamlConfig.go:616","msg":"Framework:"}
+{"level":"info","time":"2024-12-12T12:45:42.033+0530","caller":"models/HypertestYamlConfig.go:617","msg":"    Name:    \u001b[36mmaven/testng\u001b[0m"}
+{"level":"info","time":"2024-12-12T12:45:42.033+0530","caller":"models/HypertestYamlConfig.go:622","msg":"    Flags:"}
+{"level":"info","time":"2024-12-12T12:45:42.033+0530","caller":"models/HypertestYamlConfig.go:624","msg":"        \u001b[36m-Pandroid-parallel\u001b[0m"}
+{"level":"info","time":"2024-12-12T12:45:42.034+0530","caller":"models/HypertestYamlConfig.go:634","msg":"    Discovery Mode:    \u001b[36mlocal\u001b[0m"}
+{"level":"info","time":"2024-12-12T12:45:42.034+0530","caller":"models/HypertestYamlConfig.go:652","msg":"    discoveryType:    \u001b[36mxmltest\u001b[0m"}
+{"level":"info","time":"2024-12-12T12:45:42.034+0530","caller":"models/HypertestYamlConfig.go:663","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-12-12T12:45:42.034+0530","caller":"models/HypertestYamlConfig.go:720","msg":"Job Priority:    \u001b[36mhigh\u001b[0m"}
+{"level":"info","time":"2024-12-12T12:45:42.034+0530","caller":"models/HypertestYamlConfig.go:743","msg":""}
+{"level":"debug","time":"2024-12-12T12:45:42.034+0530","caller":"filevalidator/setup.go:47","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-12-12T12:45:42.034+0530","caller":"filevalidator/setup.go:51","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2024-12-12T12:45:42.034+0530","caller":"frameworks/framework.go:60","msg":"version: 0.2"}
+{"level":"debug","time":"2024-12-12T12:45:42.036+0530","caller":"apiserver/setup.go:195","msg":"Starting API server"}
+{"level":"debug","time":"2024-12-12T12:45:42.036+0530","caller":"apiserver/setup.go:111","msg":"Starting API server for test results on port: 9191"}
+{"level":"debug","time":"2024-12-12T12:45:45.169+0530","caller":"java/maven.go:78","msg":"got asset version details &{Name:java-runner Min:0.10 Max:0.10}"}
+{"level":"debug","time":"2024-12-12T12:45:52.310+0530","caller":"java/maven.go:110","msg":"java runner already up to date"}
+{"level":"debug","time":"2024-12-12T12:45:52.311+0530","caller":"java/maven.go:299","msg":"bumping version in extension.yml to 0.10"}
+{"level":"info","time":"2024-12-12T12:45:52.312+0530","caller":"appium/appium.go:131","msg":"Using app with unique id - "}
+{"level":"debug","time":"2024-12-12T12:45:52.312+0530","caller":"testdiscoverer/discoverer.go:176","msg":"Running discovery command: {mvn test -Dframework=testng -Pandroid-parallel -DdiscoveryType=xmltest -Dmode=discover -DfailIfNoTests=false []}"}
+{"level":"debug","time":"2024-12-12T12:46:14.950+0530","caller":"apiserver/setup.go:90","msg":"Tests discovered &{IsTestNGXmlSuite:true DiscoveredItems:[AndroidAppTest_5 AndroidAppTest_3 AndroidAppTest_4 AndroidAppTest_1 AndroidAppTest_2] DiscoveryResults:map[]}"}
+{"level":"debug","time":"2024-12-12T12:46:15.123+0530","caller":"testdiscoverer/discoverer.go:211","msg":"Stdout: [INFO] Scanning for projects...\r\n[WARNING] \r\n[WARNING] Some problems were encountered while building the effective model for org.example:AppTest:jar:1.0-SNAPSHOT\r\n[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.testng:testng:jar -> duplicate declaration of version 7.4.0 @ line 54, column 21\r\n[WARNING] \r\n[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.\r\n[WARNING] \r\n[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.\r\n[WARNING] \r\n[INFO] Added surefire 3.0.0-M5 as dependency in effective pom\r\n[INFO] Configured: AppTest\r\n[INFO] \r\n[INFO] ------------------------< org.example:AppTest >-------------------------\r\n[INFO] Building AppTest 1.0-SNAPSHOT\r\n[INFO]   from pom.xml\r\n[INFO] --------------------------------[ jar ]---------------------------------\r\n[INFO] \r\n[INFO] --- resources:3.3.1:resources (default-resources) @ AppTest ---\r\n[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!\r\n[INFO] skip non existing resourceDirectory D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\src\\main\\resources\r\n[INFO] \r\n[INFO] --- compiler:3.8.1:compile (default-compile) @ AppTest ---\r\n[INFO] Changes detected - recompiling the module!\r\n[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!\r\n[INFO] Compiling 2 source files to D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\target\\classes\r\n[INFO] /D:/demos/hyperexecute/appium01/hyperexecute-appium-testng/src/main/java/AndroidApp.java: Some input files use or override a deprecated API.\r\n[INFO] /D:/demos/hyperexecute/appium01/hyperexecute-appium-testng/src/main/java/AndroidApp.java: Recompile with -Xlint:deprecation for details.\r\n[INFO] \r\n[INFO] --- resources:3.3.1:testResources (default-testResources) @ AppTest ---\r\n[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!\r\n[INFO] skip non existing resourceDirectory D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\src\\test\\resources\r\n[INFO] \r\n[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ AppTest ---\r\n[INFO] Changes detected - recompiling the module!\r\n[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!\r\n[INFO] \r\n[INFO] --- surefire:3.0.0-M5:test (default-test) @ AppTest ---\r\n[INFO] \r\n[INFO] -------------------------------------------------------\r\n[INFO]  T E S T S\r\n[INFO] -------------------------------------------------------\r\n[ERROR] SLF4J: Failed to load class \"org.slf4j.impl.StaticLoggerBinder\".\r\n[ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation\r\n[ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.\r\n[INFO] Total tests discovered: 5\r\n[INFO] Total suites discovered: 0\r\n[INFO] request body: {\"discoveredItems\":[\"AndroidAppTest_5\",\"AndroidAppTest_3\",\"AndroidAppTest_4\",\"AndroidAppTest_1\",\"AndroidAppTest_2\"],\"discoveryResultMap\":{},\"testNGXMLSuite\":true}\r\n[INFO] \r\n[INFO] Results:\r\n[INFO] \r\n[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0\r\n[INFO] \r\n[WARNING] Corrupted STDOUT by directly writing to native stream in forked JVM 1. See FAQ web page and the dump file D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\target\\surefire-reports\\2024-12-12T12-46-10_099-jvmRun1.dumpstream\r\n[INFO] ------------------------------------------------------------------------\r\n[INFO] BUILD SUCCESS\r\n[INFO] ------------------------------------------------------------------------\r\n[INFO] Total time:  15.310 s\r\n[INFO] Finished at: 2024-12-12T12:46:15+05:30\r\n[INFO] ------------------------------------------------------------------------\r\n"}
+{"level":"debug","time":"2024-12-12T12:46:15.123+0530","caller":"testdiscoverer/discoverer.go:212","msg":"Stderr: "}
+{"level":"info","time":"2024-12-12T12:46:15.626+0530","caller":"core/lifecycle.go:321","msg":"Total tests discovered: 5"}
+{"level":"debug","time":"2024-12-12T12:46:17.866+0530","caller":"core/lifecycle.go:467","msg":"Job ID: cedf8c0c-7cfe-46ee-8ffb-afd9dcf0e55c"}
+{"level":"debug","time":"2024-12-12T12:46:17.866+0530","caller":"core/lifecycle.go:473","msg":"User has provided android/appium as test type for the job with ID cedf8c0c-7cfe-46ee-8ffb-afd9dcf0e55c"}
+{"level":"debug","time":"2024-12-12T12:46:17.866+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2024-12-12T12:46:17.866+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2024-12-12T12:46:17.868+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2024-12-12T12:46:17.868+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng"}
+{"level":"debug","time":"2024-12-12T12:46:18.622+0530","caller":"core/lifecycle.go:602","msg":"Zip file size: 13.93 MB"}
+{"level":"debug","time":"2024-12-12T12:46:18.622+0530","caller":"core/lifecycle.go:612","msg":"Archive location: D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\hyperexecute-code-cedf8c0c-7cfe-46ee-8ffb-afd9dcf0e55c.zip\n"}
+{"level":"debug","time":"2024-12-12T12:46:18.624+0530","caller":"storage/azure.go:59","msg":"Payload size: 13.93 MB, source path D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\hyperexecute-code-cedf8c0c-7cfe-46ee-8ffb-afd9dcf0e55c.zip"}
+{"level":"debug","time":"2024-12-12T12:46:18.625+0530","caller":"utils/azcopy.go:143","msg":"Downloading dependency binary ..................."}
+{"level":"debug","time":"2024-12-12T12:46:18.800+0530","caller":"storage/azure.go:59","msg":"Payload size: 16.48 kB, source path C:\\Users\\AMITWA~1\\AppData\\Local\\Temp\\git.diff"}
+{"level":"debug","time":"2024-12-12T12:46:19.531+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2024-12-12T12:46:19.881+0530","caller":"utils/azcopy.go:100","msg":"Downloading dependency to upload files"}
+{"level":"info","time":"2024-12-12T12:46:25.025+0530","caller":"utils/azcopy.go:118","msg":"✔ Dependency binary downloaded successfully"}
+{"level":"debug","time":"2024-12-12T12:46:25.025+0530","caller":"utils/azcopy.go:190","msg":"returning from fallback"}
+{"level":"info","time":"2024-12-12T12:46:29.373+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.5730605s"}
+{"level":"info","time":"2024-12-12T12:46:39.977+0530","caller":"storage/azure.go:114","msg":"File upload completed in 21.3536147s"}
+{"level":"debug","time":"2024-12-12T12:46:39.979+0530","caller":"receptionmanager/setup.go:251","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-12-12T12:46:39.979+0530","caller":"receptionmanager/setup.go:280","msg":"number of entries in partialreports: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-12-12T12:46:39.979+0530","caller":"receptionmanager/setup.go:168","msg":"Uploading yaml : D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-12-12T12:46:39.980+0530","caller":"storage/azure.go:59","msg":"Payload size: 3.04 kB, source path D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\.updatedhyperexecute.yaml"}
+{"level":"info","time":"2024-12-12T12:46:44.445+0530","caller":"storage/azure.go:114","msg":"File upload completed in 4.4664392s"}
+{"level":"debug","time":"2024-12-12T12:46:44.458+0530","caller":"core/lifecycle.go:639","msg":"Successfully deleted code archive: D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\hyperexecute-code-cedf8c0c-7cfe-46ee-8ffb-afd9dcf0e55c.zip\n"}
+{"level":"debug","time":"2024-12-12T12:46:44.461+0530","caller":"storage/azure.go:59","msg":"Payload size: 422 B, source path yaml\\android\\mask-cedf8c0c-7cfe-46ee-8ffb-afd9dcf0e55c.yaml"}
+{"level":"info","time":"2024-12-12T12:46:49.118+0530","caller":"storage/azure.go:114","msg":"File upload completed in 4.6581207s"}
+{"level":"debug","time":"2024-12-12T12:46:51.542+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 691d5db4-9a49-4d45-85bf-cea419818195"}
+{"level":"debug","time":"2024-12-12T12:46:51.542+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 691d5db4-9a49-4d45-85bf-cea419818195"}
+{"level":"debug","time":"2024-12-12T12:46:51.542+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 7fb961d4-89dc-4fd3-b2a8-00fc8871af41"}
+{"level":"debug","time":"2024-12-12T12:46:51.542+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 7fb961d4-89dc-4fd3-b2a8-00fc8871af41"}
+{"level":"debug","time":"2024-12-12T12:46:51.542+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 9f04c3ac-847d-4997-8a00-cded3e28444e"}
+{"level":"debug","time":"2024-12-12T12:46:51.542+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 9f04c3ac-847d-4997-8a00-cded3e28444e"}
+{"level":"debug","time":"2024-12-12T12:46:51.542+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: f25fee46-d972-457b-ac3f-1f46df0c3b30"}
+{"level":"debug","time":"2024-12-12T12:46:51.542+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: f25fee46-d972-457b-ac3f-1f46df0c3b30"}
+{"level":"debug","time":"2024-12-12T12:46:51.542+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 61894656-b611-4d9a-950d-0cb77ce9731c"}
+{"level":"debug","time":"2024-12-12T12:46:51.542+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 61894656-b611-4d9a-950d-0cb77ce9731c"}
+{"level":"info","time":"2024-12-12T12:46:55.164+0530","caller":"jobmanager/sse_setup.go:85","msg":"\nJob cedf8c0c-7cfe-46ee-8ffb-afd9dcf0e55c has started RUNNING"}
+{"level":"info","time":"2024-12-12T12:46:55.169+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=cedf8c0c-7cfe-46ee-8ffb-afd9dcf0e55c\n"}
+{"level":"info","time":"2024-12-12T12:47:01.873+0530","caller":"terminal/terminal.go:187","msg":"✔ [3]  cache-download (5s)\n"}
+{"level":"info","time":"2024-12-12T12:47:01.876+0530","caller":"terminal/terminal.go:187","msg":"✔ [4]  cache-download (6s)\n"}
+{"level":"info","time":"2024-12-12T12:47:02.034+0530","caller":"terminal/terminal.go:187","msg":"✔ [5]  cache-download (6s)\n"}
+{"level":"info","time":"2024-12-12T12:47:02.088+0530","caller":"terminal/terminal.go:187","msg":"✔ [2]  cache-download (6s)\n"}
+{"level":"info","time":"2024-12-12T12:47:02.096+0530","caller":"terminal/terminal.go:187","msg":"✔ [1]  cache-download (6s)\n"}
+{"level":"info","time":"2024-12-12T12:47:09.608+0530","caller":"terminal/terminal.go:187","msg":"✔ [1]  pre (8s)\n"}
+{"level":"info","time":"2024-12-12T12:47:09.723+0530","caller":"terminal/terminal.go:187","msg":"✔ [4]  pre (8s)\n"}
+{"level":"info","time":"2024-12-12T12:47:09.771+0530","caller":"terminal/terminal.go:187","msg":"✔ [3]  pre (8s)\n"}
+{"level":"info","time":"2024-12-12T12:47:09.874+0530","caller":"terminal/terminal.go:187","msg":"✔ [2]  pre (8s)\n"}
+{"level":"info","time":"2024-12-12T12:47:09.941+0530","caller":"terminal/terminal.go:187","msg":"✔ [5]  pre (8s)\n"}
+{"level":"info","time":"2024-12-12T12:47:10.136+0530","caller":"terminal/terminal.go:187","msg":"✔ [1]  discovery (1s)\n"}
+{"level":"info","time":"2024-12-12T12:47:10.166+0530","caller":"terminal/terminal.go:187","msg":"✔ [4]  discovery (1s)\n"}
+{"level":"info","time":"2024-12-12T12:47:10.523+0530","caller":"terminal/terminal.go:187","msg":"✔ [2]  discovery (1s)\n"}
+{"level":"info","time":"2024-12-12T12:47:10.611+0530","caller":"terminal/terminal.go:187","msg":"✔ [3]  discovery (1s)\n"}
+{"level":"info","time":"2024-12-12T12:47:10.615+0530","caller":"terminal/terminal.go:187","msg":"✔ [5]  discovery (1s)\n"}
+{"level":"info","time":"2024-12-12T12:48:00.993+0530","caller":"terminal/terminal.go:187","msg":"x [5]  AndroidAppTest_3 (43s)\n"}
+{"level":"info","time":"2024-12-12T12:48:15.255+0530","caller":"terminal/terminal.go:187","msg":"x [4]  AndroidAppTest_2 (57s)\n"}
+{"level":"info","time":"2024-12-12T12:48:17.408+0530","caller":"terminal/terminal.go:187","msg":"x [2]  AndroidAppTest_1 (58s)\n"}
+{"level":"info","time":"2024-12-12T12:48:18.212+0530","caller":"terminal/terminal.go:187","msg":"x [3]  AndroidAppTest_4 (59s)\n"}
+{"level":"info","time":"2024-12-12T12:48:35.425+0530","caller":"terminal/terminal.go:187","msg":"x [1]  AndroidAppTest_5 (1m17s)\n"}
+{"level":"info","time":"2024-12-12T12:48:41.438+0530","caller":"terminal/terminal.go:187","msg":"x [5]  {retry 1} AndroidAppTest_3 (36s)\n"}
+{"level":"info","time":"2024-12-12T12:49:13.365+0530","caller":"terminal/terminal.go:187","msg":"x [4]  {retry 1} AndroidAppTest_2 (54s)\n"}
+{"level":"info","time":"2024-12-12T12:49:20.463+0530","caller":"terminal/terminal.go:187","msg":"x [3]  {retry 1} AndroidAppTest_4 (58s)\n"}
+{"level":"info","time":"2024-12-12T12:49:20.708+0530","caller":"terminal/terminal.go:187","msg":"x [2]  {retry 1} AndroidAppTest_1 (1m0s)\n"}
+{"level":"info","time":"2024-12-12T12:49:21.837+0530","caller":"terminal/terminal.go:187","msg":"x [5]  {retry 2} AndroidAppTest_3 (36s)\n"}
+{"level":"info","time":"2024-12-12T12:49:33.395+0530","caller":"terminal/terminal.go:187","msg":"x [1]  {retry 1} AndroidAppTest_5 (53s)\n"}
+{"level":"info","time":"2024-12-12T12:50:13.965+0530","caller":"terminal/terminal.go:187","msg":"x [4]  {retry 2} AndroidAppTest_2 (57s)\n"}
+{"level":"info","time":"2024-12-12T12:50:13.984+0530","caller":"terminal/terminal.go:187","msg":"x [5]  {retry 3} AndroidAppTest_3 (48s)\n"}
+{"level":"info","time":"2024-12-12T12:50:19.895+0530","caller":"terminal/terminal.go:187","msg":"x [3]  {retry 2} AndroidAppTest_4 (55s)\n"}
+{"level":"info","time":"2024-12-12T12:50:22.746+0530","caller":"terminal/terminal.go:187","msg":"x [2]  {retry 2} AndroidAppTest_1 (57s)\n"}
+{"level":"info","time":"2024-12-12T12:50:34.023+0530","caller":"terminal/terminal.go:187","msg":"x [1]  {retry 2} AndroidAppTest_5 (55s)\n"}
+{"level":"info","time":"2024-12-12T12:50:54.708+0530","caller":"terminal/terminal.go:187","msg":"x [5]  {retry 4} AndroidAppTest_3 (36s)\n"}
+{"level":"info","time":"2024-12-12T12:51:13.583+0530","caller":"terminal/terminal.go:187","msg":"x [4]  {retry 3} AndroidAppTest_2 (56s)\n"}
+{"level":"info","time":"2024-12-12T12:51:20.819+0530","caller":"terminal/terminal.go:187","msg":"x [3]  {retry 3} AndroidAppTest_4 (57s)\n"}
+{"level":"info","time":"2024-12-12T12:51:22.680+0530","caller":"terminal/terminal.go:187","msg":"x [2]  {retry 3} AndroidAppTest_1 (56s)\n"}
+{"level":"info","time":"2024-12-12T12:51:31.861+0530","caller":"terminal/terminal.go:187","msg":"x [1]  {retry 3} AndroidAppTest_5 (55s)\n"}
+{"level":"info","time":"2024-12-12T12:51:34.055+0530","caller":"terminal/terminal.go:187","msg":"x [5]  {retry 5} AndroidAppTest_3 (35s)\n"}
+{"level":"info","time":"2024-12-12T12:52:00.829+0530","caller":"terminal/terminal.go:187","msg":"x [2]  {retry 4} AndroidAppTest_1 (34s)\n"}
+{"level":"info","time":"2024-12-12T12:52:11.871+0530","caller":"terminal/terminal.go:187","msg":"x [4]  {retry 4} AndroidAppTest_2 (54s)\n"}
+{"level":"info","time":"2024-12-12T12:52:24.426+0530","caller":"terminal/terminal.go:187","msg":"x [3]  {retry 4} AndroidAppTest_4 (59s)\n"}
+{"level":"info","time":"2024-12-12T12:52:33.610+0530","caller":"terminal/terminal.go:187","msg":"x [1]  {retry 4} AndroidAppTest_5 (58s)\n"}
+{"level":"info","time":"2024-12-12T12:53:02.534+0530","caller":"terminal/terminal.go:187","msg":"x [2]  {retry 5} AndroidAppTest_1 (57s)\n"}
+{"level":"info","time":"2024-12-12T12:53:13.894+0530","caller":"terminal/terminal.go:187","msg":"x [4]  {retry 5} AndroidAppTest_2 (57s)\n"}
+{"level":"info","time":"2024-12-12T12:53:25.251+0530","caller":"terminal/terminal.go:187","msg":"x [3]  {retry 5} AndroidAppTest_4 (56s)\n"}
+{"level":"info","time":"2024-12-12T12:53:33.452+0530","caller":"terminal/terminal.go:187","msg":"x [1]  {retry 5} AndroidAppTest_5 (55s)\n"}
+{"level":"debug","time":"2024-12-12T12:53:39.577+0530","caller":"jobmanager/sse_setup.go:136","msg":"\n\nJob status"}
+{"level":"info","time":"2024-12-12T12:53:39.577+0530","caller":"core/lifecycle.go:724","msg":"taskId:691d5db4-9a49-4d45-85bf-cea419818195 has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"info","time":"2024-12-12T12:53:39.578+0530","caller":"core/lifecycle.go:724","msg":"taskId:7fb961d4-89dc-4fd3-b2a8-00fc8871af41 has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"info","time":"2024-12-12T12:53:39.578+0530","caller":"core/lifecycle.go:724","msg":"taskId:9f04c3ac-847d-4997-8a00-cded3e28444e has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"info","time":"2024-12-12T12:53:39.579+0530","caller":"core/lifecycle.go:724","msg":"taskId:f25fee46-d972-457b-ac3f-1f46df0c3b30 has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"info","time":"2024-12-12T12:53:39.579+0530","caller":"core/lifecycle.go:724","msg":"taskId:61894656-b611-4d9a-950d-0cb77ce9731c has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"debug","time":"2024-12-12T12:53:39.580+0530","caller":"core/lifecycle.go:817","msg":"Context canceled"}
+{"level":"info","time":"2024-12-12T12:53:39.580+0530","caller":"core/lifecycle.go:820","msg":"Stopping pipeline gracefully"}
+{"level":"debug","time":"2024-12-12T12:53:39.580+0530","caller":"apiserver/setup.go:107","msg":"Shutting down the api server"}
+{"level":"error","time":"2024-12-12T12:53:39.580+0530","caller":"core/lifecycle.go:823","msg":"2024-12-12T12:45:36+05:30    error    Exiting with error: Failed tasks found."}
+{"level":"info","time":"2024-12-12T12:53:39.581+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=cedf8c0c-7cfe-46ee-8ffb-afd9dcf0e55c\n"}
+{"level":"debug","time":"2024-12-12T12:53:39.582+0530","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-12-12T12:53:39.583+0530","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2024-12-12T12:53:40.083+0530","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n FAILED \n"}
+{"level":"info","time":"2024-12-12T12:53:40.151+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Test Execution Time:                  5m52s"}
+{"level":"info","time":"2024-12-12T12:53:40.153+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Job Duration Time:                    6m43s"}
+{"level":"info","time":"2024-12-12T12:53:40.154+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Tasks:                          5"}
+{"level":"info","time":"2024-12-12T12:53:40.154+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Cumulative Time Consumed:             30m40s"}
+{"level":"info","time":"2024-12-12T12:53:40.154+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Stages:                         15"}
+{"level":"info","time":"2024-12-12T12:53:40.156+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass discovery stage percentage:      100.00%"}
+{"level":"info","time":"2024-12-12T12:53:40.156+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed discovery stage percentage:    0.00%"}
+{"level":"info","time":"2024-12-12T12:53:40.156+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass pre stage percentage:            100.00%"}
+{"level":"info","time":"2024-12-12T12:53:40.173+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed pre stage percentage:          0.00%"}
+{"level":"info","time":"2024-12-12T12:53:40.176+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass test stage percentage:           0.00%"}
+{"level":"info","time":"2024-12-12T12:53:40.177+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed test stage percentage:         100.00%"}
+{"level":"info","time":"2024-12-12T12:53:40.177+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass post stage percentage:           0.00%"}
+{"level":"info","time":"2024-12-12T12:53:40.177+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed post stage percentage:         0.00%"}
+{"level":"info","time":"2024-12-12T12:53:40.177+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed Tasks:                         5"}
+{"level":"info","time":"2024-12-12T12:53:40.178+0530","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"debug","time":"2024-12-12T12:54:09.586+0530","caller":"cmd/bin.go:330","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2024-12-12T12:54:09.586+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error Failed tasks found."}
+{"level":"warn","time":"2024-12-12T13:25:42.666+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-12-12T13:25:42.667+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-12-12T13:25:44.248+0530","caller":"cmd/bin.go:121","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-12-12T13:25:45.010+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.239} "}
+{"level":"warn","time":"2024-12-12T13:25:45.013+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-12-12T13:25:45.013+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-12-12T13:25:48.478+0530","caller":"core/lifecycle.go:104","msg":"Setting environment"}
+{"level":"debug","time":"2024-12-12T13:25:48.478+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2024-12-12T13:25:48.478+0530","caller":"yamlconfigmanager/setup.go:605","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/android/hyp-rd-android-single.yaml"}
+{"level":"debug","time":"2024-12-12T13:25:48.479+0530","caller":"yamlconfigmanager/setup.go:109","msg":"using hyperexecute config from : yaml/android/hyp-rd-android-single.yaml"}
+{"level":"debug","time":"2024-12-12T13:25:49.026+0530","caller":"yamlconfigmanager/setup.go:2306","msg":"Autodetecting test type in files of path : D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng"}
+{"level":"debug","time":"2024-12-12T13:25:49.027+0530","caller":"yamlconfigmanager/setup.go:451","msg":"Tunnel: false"}
+{"level":"info","time":"2024-12-12T13:25:49.027+0530","caller":"models/HypertestYamlConfig.go:730","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2024-12-12T13:25:49.027+0530","caller":"models/HypertestYamlConfig.go:531","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:25:49.027+0530","caller":"models/HypertestYamlConfig.go:591","msg":"Runson:    \u001b[36mlinux\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:25:49.027+0530","caller":"models/HypertestYamlConfig.go:599","msg":"Concurrency:    \u001b[36m5\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:25:49.027+0530","caller":"models/HypertestYamlConfig.go:616","msg":"Framework:"}
+{"level":"info","time":"2024-12-12T13:25:49.028+0530","caller":"models/HypertestYamlConfig.go:617","msg":"    Name:    \u001b[36mmaven/testng\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:25:49.028+0530","caller":"models/HypertestYamlConfig.go:622","msg":"    Flags:"}
+{"level":"info","time":"2024-12-12T13:25:49.028+0530","caller":"models/HypertestYamlConfig.go:624","msg":"        \u001b[36m-Pandroid-single\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:25:49.028+0530","caller":"models/HypertestYamlConfig.go:634","msg":"    Discovery Mode:    \u001b[36mlocal\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:25:49.028+0530","caller":"models/HypertestYamlConfig.go:652","msg":"    discoveryType:    \u001b[36mxmltest\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:25:49.028+0530","caller":"models/HypertestYamlConfig.go:663","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:25:49.028+0530","caller":"models/HypertestYamlConfig.go:743","msg":""}
+{"level":"debug","time":"2024-12-12T13:25:49.029+0530","caller":"filevalidator/setup.go:47","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-12-12T13:25:49.029+0530","caller":"filevalidator/setup.go:51","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2024-12-12T13:25:49.029+0530","caller":"frameworks/framework.go:60","msg":"version: 0.2"}
+{"level":"debug","time":"2024-12-12T13:25:49.030+0530","caller":"apiserver/setup.go:195","msg":"Starting API server"}
+{"level":"debug","time":"2024-12-12T13:25:49.030+0530","caller":"apiserver/setup.go:111","msg":"Starting API server for test results on port: 9191"}
+{"level":"debug","time":"2024-12-12T13:25:50.771+0530","caller":"java/maven.go:78","msg":"got asset version details &{Name:java-runner Min:0.10 Max:0.10}"}
+{"level":"debug","time":"2024-12-12T13:25:59.254+0530","caller":"java/maven.go:110","msg":"java runner already up to date"}
+{"level":"info","time":"2024-12-12T13:25:59.254+0530","caller":"appium/appium.go:131","msg":"Using app with unique id - "}
+{"level":"debug","time":"2024-12-12T13:25:59.255+0530","caller":"testdiscoverer/discoverer.go:176","msg":"Running discovery command: {mvn test -Dframework=testng -Pandroid-single -DdiscoveryType=xmltest -Dmode=discover -DfailIfNoTests=false []}"}
+{"level":"debug","time":"2024-12-12T13:26:12.724+0530","caller":"apiserver/setup.go:90","msg":"Tests discovered &{IsTestNGXmlSuite:true DiscoveredItems:[Test_Notification_GeoLocation Test_Text_And_Toast Test_Change_Color] DiscoveryResults:map[]}"}
+{"level":"debug","time":"2024-12-12T13:26:12.872+0530","caller":"testdiscoverer/discoverer.go:211","msg":"Stdout: [INFO] Scanning for projects...\r\n[WARNING] \r\n[WARNING] Some problems were encountered while building the effective model for org.example:AppTest:jar:1.0-SNAPSHOT\r\n[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.testng:testng:jar -> duplicate declaration of version 7.4.0 @ line 54, column 21\r\n[WARNING] \r\n[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.\r\n[WARNING] \r\n[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.\r\n[WARNING] \r\n[INFO] Added surefire 3.0.0-M5 as dependency in effective pom\r\n[INFO] Configured: AppTest\r\n[INFO] \r\n[INFO] ------------------------< org.example:AppTest >-------------------------\r\n[INFO] Building AppTest 1.0-SNAPSHOT\r\n[INFO]   from pom.xml\r\n[INFO] --------------------------------[ jar ]---------------------------------\r\n[INFO] \r\n[INFO] --- resources:3.3.1:resources (default-resources) @ AppTest ---\r\n[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!\r\n[INFO] skip non existing resourceDirectory D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\src\\main\\resources\r\n[INFO] \r\n[INFO] --- compiler:3.8.1:compile (default-compile) @ AppTest ---\r\n[INFO] Nothing to compile - all classes are up to date\r\n[INFO] \r\n[INFO] --- resources:3.3.1:testResources (default-testResources) @ AppTest ---\r\n[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!\r\n[INFO] skip non existing resourceDirectory D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\src\\test\\resources\r\n[INFO] \r\n[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ AppTest ---\r\n[INFO] Nothing to compile - all classes are up to date\r\n[INFO] \r\n[INFO] --- surefire:3.0.0-M5:test (default-test) @ AppTest ---\r\n[INFO] \r\n[INFO] -------------------------------------------------------\r\n[INFO]  T E S T S\r\n[INFO] -------------------------------------------------------\r\n[ERROR] SLF4J: Failed to load class \"org.slf4j.impl.StaticLoggerBinder\".\r\n[ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation\r\n[ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.\r\n[INFO] Total tests discovered: 3\r\n[INFO] Total suites discovered: 0\r\n[INFO] request body: {\"discoveredItems\":[\"Test_Notification_GeoLocation\",\"Test_Text_And_Toast\",\"Test_Change_Color\"],\"discoveryResultMap\":{},\"testNGXMLSuite\":true}\r\n[INFO] \r\n[INFO] Results:\r\n[INFO] \r\n[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0\r\n[INFO] \r\n[WARNING] Corrupted STDOUT by directly writing to native stream in forked JVM 1. See FAQ web page and the dump file D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\target\\surefire-reports\\2024-12-12T13-26-08_990-jvmRun1.dumpstream\r\n[INFO] ------------------------------------------------------------------------\r\n[INFO] BUILD SUCCESS\r\n[INFO] ------------------------------------------------------------------------\r\n[INFO] Total time:  7.715 s\r\n[INFO] Finished at: 2024-12-12T13:26:12+05:30\r\n[INFO] ------------------------------------------------------------------------\r\n"}
+{"level":"debug","time":"2024-12-12T13:26:12.872+0530","caller":"testdiscoverer/discoverer.go:212","msg":"Stderr: "}
+{"level":"info","time":"2024-12-12T13:26:13.379+0530","caller":"core/lifecycle.go:321","msg":"Total tests discovered: 3"}
+{"level":"info","time":"2024-12-12T13:26:13.380+0530","caller":"core/lifecycle.go:324","msg":"Concurrency 5 is getting overwritten by 3"}
+{"level":"debug","time":"2024-12-12T13:26:14.025+0530","caller":"core/lifecycle.go:467","msg":"Job ID: beab3c78-eea2-4591-87d5-13f7b910273c"}
+{"level":"debug","time":"2024-12-12T13:26:14.025+0530","caller":"core/lifecycle.go:473","msg":"User has provided android/appium as test type for the job with ID beab3c78-eea2-4591-87d5-13f7b910273c"}
+{"level":"debug","time":"2024-12-12T13:26:14.025+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2024-12-12T13:26:14.026+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2024-12-12T13:26:14.027+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2024-12-12T13:26:14.027+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng"}
+{"level":"debug","time":"2024-12-12T13:26:15.444+0530","caller":"storage/azure.go:59","msg":"Payload size: 26.47 kB, source path C:\\Users\\AMITWA~1\\AppData\\Local\\Temp\\git.diff"}
+{"level":"debug","time":"2024-12-12T13:26:15.633+0530","caller":"core/lifecycle.go:602","msg":"Zip file size: 14.03 MB"}
+{"level":"debug","time":"2024-12-12T13:26:15.634+0530","caller":"core/lifecycle.go:612","msg":"Archive location: D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\hyperexecute-code-beab3c78-eea2-4591-87d5-13f7b910273c.zip\n"}
+{"level":"debug","time":"2024-12-12T13:26:15.636+0530","caller":"storage/azure.go:59","msg":"Payload size: 14.03 MB, source path D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\hyperexecute-code-beab3c78-eea2-4591-87d5-13f7b910273c.zip"}
+{"level":"debug","time":"2024-12-12T13:26:20.084+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2024-12-12T13:26:24.182+0530","caller":"storage/azure.go:114","msg":"File upload completed in 8.7388804s"}
+{"level":"info","time":"2024-12-12T13:26:34.750+0530","caller":"storage/azure.go:114","msg":"File upload completed in 19.116789s"}
+{"level":"debug","time":"2024-12-12T13:26:34.753+0530","caller":"receptionmanager/setup.go:251","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-12-12T13:26:34.753+0530","caller":"receptionmanager/setup.go:280","msg":"number of entries in partialreports: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-12-12T13:26:34.754+0530","caller":"receptionmanager/setup.go:168","msg":"Uploading yaml : D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-12-12T13:26:34.754+0530","caller":"storage/azure.go:59","msg":"Payload size: 2.96 kB, source path D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\.updatedhyperexecute.yaml"}
+{"level":"info","time":"2024-12-12T13:26:40.782+0530","caller":"storage/azure.go:114","msg":"File upload completed in 6.0281288s"}
+{"level":"debug","time":"2024-12-12T13:26:40.787+0530","caller":"core/lifecycle.go:639","msg":"Successfully deleted code archive: D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\hyperexecute-code-beab3c78-eea2-4591-87d5-13f7b910273c.zip\n"}
+{"level":"debug","time":"2024-12-12T13:26:40.790+0530","caller":"storage/azure.go:59","msg":"Payload size: 409 B, source path yaml\\android\\mask-beab3c78-eea2-4591-87d5-13f7b910273c.yaml"}
+{"level":"info","time":"2024-12-12T13:26:46.227+0530","caller":"storage/azure.go:114","msg":"File upload completed in 5.4382098s"}
+{"level":"debug","time":"2024-12-12T13:26:48.006+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: db367321-9362-4ef4-80b5-a3b42938cef7"}
+{"level":"debug","time":"2024-12-12T13:26:48.007+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: db367321-9362-4ef4-80b5-a3b42938cef7"}
+{"level":"debug","time":"2024-12-12T13:26:48.007+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: f2d951b1-33d5-4127-8f1a-a526b5110c45"}
+{"level":"debug","time":"2024-12-12T13:26:48.007+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: f2d951b1-33d5-4127-8f1a-a526b5110c45"}
+{"level":"debug","time":"2024-12-12T13:26:48.007+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 071ea5ab-f747-4ad6-9325-cbc84dcc8737"}
+{"level":"debug","time":"2024-12-12T13:26:48.007+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 071ea5ab-f747-4ad6-9325-cbc84dcc8737"}
+{"level":"info","time":"2024-12-12T13:26:51.548+0530","caller":"jobmanager/sse_setup.go:85","msg":"\nJob beab3c78-eea2-4591-87d5-13f7b910273c has started RUNNING"}
+{"level":"info","time":"2024-12-12T13:26:51.549+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=beab3c78-eea2-4591-87d5-13f7b910273c\n"}
+{"level":"info","time":"2024-12-12T13:26:55.015+0530","caller":"terminal/terminal.go:187","msg":"✔ [1]  cache-download (2s)\n"}
+{"level":"info","time":"2024-12-12T13:26:55.053+0530","caller":"terminal/terminal.go:187","msg":"✔ [3]  cache-download (2s)\n"}
+{"level":"info","time":"2024-12-12T13:26:55.361+0530","caller":"terminal/terminal.go:187","msg":"✔ [2]  cache-download (2s)\n"}
+{"level":"info","time":"2024-12-12T13:27:02.003+0530","caller":"terminal/terminal.go:187","msg":"✔ [1]  pre (7s)\n"}
+{"level":"info","time":"2024-12-12T13:27:02.125+0530","caller":"terminal/terminal.go:187","msg":"✔ [3]  pre (7s)\n"}
+{"level":"info","time":"2024-12-12T13:27:02.379+0530","caller":"terminal/terminal.go:187","msg":"✔ [2]  pre (7s)\n"}
+{"level":"info","time":"2024-12-12T13:27:02.765+0530","caller":"terminal/terminal.go:187","msg":"✔ [1]  discovery (1s)\n"}
+{"level":"info","time":"2024-12-12T13:27:02.916+0530","caller":"terminal/terminal.go:187","msg":"✔ [3]  discovery (1s)\n"}
+{"level":"info","time":"2024-12-12T13:27:03.031+0530","caller":"terminal/terminal.go:187","msg":"✔ [2]  discovery (1s)\n"}
+{"level":"info","time":"2024-12-12T13:27:39.162+0530","caller":"terminal/terminal.go:187","msg":"✔ [2]  Test_Text_And_Toast (28s)\n"}
+{"level":"info","time":"2024-12-12T13:27:41.899+0530","caller":"terminal/terminal.go:187","msg":"x [3]  Test_Notification_GeoLocation (30s)\n"}
+{"level":"info","time":"2024-12-12T13:27:42.202+0530","caller":"terminal/terminal.go:187","msg":"✔ [1]  Test_Change_Color (30s)\n"}
+{"level":"info","time":"2024-12-12T13:28:11.075+0530","caller":"terminal/terminal.go:187","msg":"x [3]  {retry 1} Test_Notification_GeoLocation (24s)\n"}
+{"level":"info","time":"2024-12-12T13:28:42.877+0530","caller":"terminal/terminal.go:187","msg":"x [3]  {retry 2} Test_Notification_GeoLocation (27s)\n"}
+{"level":"info","time":"2024-12-12T13:29:11.681+0530","caller":"terminal/terminal.go:187","msg":"x [3]  {retry 3} Test_Notification_GeoLocation (25s)\n"}
+{"level":"info","time":"2024-12-12T13:29:43.448+0530","caller":"terminal/terminal.go:187","msg":"x [3]  {retry 4} Test_Notification_GeoLocation (27s)\n"}
+{"level":"info","time":"2024-12-12T13:30:17.896+0530","caller":"terminal/terminal.go:187","msg":"x [3]  {retry 5} Test_Notification_GeoLocation (28s)\n"}
+{"level":"debug","time":"2024-12-12T13:30:24.480+0530","caller":"jobmanager/sse_setup.go:136","msg":"\n\nJob status"}
+{"level":"info","time":"2024-12-12T13:30:24.480+0530","caller":"core/lifecycle.go:724","msg":"taskId:071ea5ab-f747-4ad6-9325-cbc84dcc8737 has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"debug","time":"2024-12-12T13:30:24.484+0530","caller":"core/lifecycle.go:817","msg":"Context canceled"}
+{"level":"debug","time":"2024-12-12T13:30:24.485+0530","caller":"apiserver/setup.go:107","msg":"Shutting down the api server"}
+{"level":"info","time":"2024-12-12T13:30:24.484+0530","caller":"core/lifecycle.go:820","msg":"Stopping pipeline gracefully"}
+{"level":"error","time":"2024-12-12T13:30:24.486+0530","caller":"core/lifecycle.go:823","msg":"2024-12-12T13:25:42+05:30    error    Exiting with error: Failed tasks found."}
+{"level":"info","time":"2024-12-12T13:30:24.488+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=beab3c78-eea2-4591-87d5-13f7b910273c\n"}
+{"level":"debug","time":"2024-12-12T13:30:24.489+0530","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-12-12T13:30:24.489+0530","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2024-12-12T13:30:24.805+0530","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n FAILED \n"}
+{"level":"info","time":"2024-12-12T13:30:24.812+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Test Execution Time:                  2m41s"}
+{"level":"info","time":"2024-12-12T13:30:24.813+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Job Duration Time:                    3m30s"}
+{"level":"info","time":"2024-12-12T13:30:24.813+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Tasks:                          3"}
+{"level":"info","time":"2024-12-12T13:30:24.814+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Cumulative Time Consumed:             5m19s"}
+{"level":"info","time":"2024-12-12T13:30:24.815+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Stages:                         9"}
+{"level":"info","time":"2024-12-12T13:30:24.815+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass discovery stage percentage:      100.00%"}
+{"level":"info","time":"2024-12-12T13:30:24.815+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed discovery stage percentage:    0.00%"}
+{"level":"info","time":"2024-12-12T13:30:24.816+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass pre stage percentage:            100.00%"}
+{"level":"info","time":"2024-12-12T13:30:24.817+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed pre stage percentage:          0.00%"}
+{"level":"info","time":"2024-12-12T13:30:24.817+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass test stage percentage:           66.67%"}
+{"level":"info","time":"2024-12-12T13:30:24.817+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed test stage percentage:         33.33%"}
+{"level":"info","time":"2024-12-12T13:30:24.818+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass post stage percentage:           0.00%"}
+{"level":"info","time":"2024-12-12T13:30:24.818+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed post stage percentage:         0.00%"}
+{"level":"info","time":"2024-12-12T13:30:24.819+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed Tasks:                         1"}
+{"level":"info","time":"2024-12-12T13:30:24.819+0530","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"debug","time":"2024-12-12T13:30:54.499+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error Failed tasks found."}
+{"level":"debug","time":"2024-12-12T13:30:54.499+0530","caller":"cmd/bin.go:330","msg":"main: all goroutines have finished."}
+{"level":"warn","time":"2024-12-12T13:33:53.672+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-12-12T13:33:53.673+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-12-12T13:33:54.040+0530","caller":"cmd/bin.go:121","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-12-12T13:33:55.005+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.239} "}
+{"level":"warn","time":"2024-12-12T13:33:55.007+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-12-12T13:33:55.007+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-12-12T13:33:57.900+0530","caller":"core/lifecycle.go:104","msg":"Setting environment"}
+{"level":"debug","time":"2024-12-12T13:33:57.900+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2024-12-12T13:33:57.900+0530","caller":"yamlconfigmanager/setup.go:605","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/android/hyp-rd-android-single.yaml"}
+{"level":"debug","time":"2024-12-12T13:33:57.900+0530","caller":"yamlconfigmanager/setup.go:109","msg":"using hyperexecute config from : yaml/android/hyp-rd-android-single.yaml"}
+{"level":"debug","time":"2024-12-12T13:33:58.923+0530","caller":"yamlconfigmanager/setup.go:2306","msg":"Autodetecting test type in files of path : D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng"}
+{"level":"debug","time":"2024-12-12T13:33:58.924+0530","caller":"yamlconfigmanager/setup.go:451","msg":"Tunnel: false"}
+{"level":"info","time":"2024-12-12T13:33:58.924+0530","caller":"models/HypertestYamlConfig.go:730","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2024-12-12T13:33:58.925+0530","caller":"models/HypertestYamlConfig.go:531","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:33:58.925+0530","caller":"models/HypertestYamlConfig.go:591","msg":"Runson:    \u001b[36mlinux\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:33:58.925+0530","caller":"models/HypertestYamlConfig.go:599","msg":"Concurrency:    \u001b[36m5\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:33:58.925+0530","caller":"models/HypertestYamlConfig.go:616","msg":"Framework:"}
+{"level":"info","time":"2024-12-12T13:33:58.925+0530","caller":"models/HypertestYamlConfig.go:617","msg":"    Name:    \u001b[36mmaven/testng\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:33:58.925+0530","caller":"models/HypertestYamlConfig.go:622","msg":"    Flags:"}
+{"level":"info","time":"2024-12-12T13:33:58.926+0530","caller":"models/HypertestYamlConfig.go:624","msg":"        \u001b[36m-Pandroid-single\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:33:58.926+0530","caller":"models/HypertestYamlConfig.go:634","msg":"    Discovery Mode:    \u001b[36mlocal\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:33:58.926+0530","caller":"models/HypertestYamlConfig.go:652","msg":"    discoveryType:    \u001b[36mxmltest\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:33:58.926+0530","caller":"models/HypertestYamlConfig.go:663","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:33:58.926+0530","caller":"models/HypertestYamlConfig.go:720","msg":"Job Priority:    \u001b[36mhigh\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:33:58.926+0530","caller":"models/HypertestYamlConfig.go:743","msg":""}
+{"level":"debug","time":"2024-12-12T13:33:58.926+0530","caller":"filevalidator/setup.go:47","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-12-12T13:33:58.926+0530","caller":"filevalidator/setup.go:51","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2024-12-12T13:33:58.926+0530","caller":"frameworks/framework.go:60","msg":"version: 0.2"}
+{"level":"debug","time":"2024-12-12T13:33:58.928+0530","caller":"apiserver/setup.go:195","msg":"Starting API server"}
+{"level":"debug","time":"2024-12-12T13:33:58.928+0530","caller":"apiserver/setup.go:111","msg":"Starting API server for test results on port: 9191"}
+{"level":"debug","time":"2024-12-12T13:34:00.705+0530","caller":"java/maven.go:78","msg":"got asset version details &{Name:java-runner Min:0.10 Max:0.10}"}
+{"level":"debug","time":"2024-12-12T13:34:10.901+0530","caller":"java/maven.go:110","msg":"java runner already up to date"}
+{"level":"info","time":"2024-12-12T13:34:10.901+0530","caller":"appium/appium.go:131","msg":"Using app with unique id - "}
+{"level":"debug","time":"2024-12-12T13:34:10.902+0530","caller":"testdiscoverer/discoverer.go:176","msg":"Running discovery command: {mvn test -Dframework=testng -Pandroid-single -DdiscoveryType=xmltest -Dmode=discover -DfailIfNoTests=false []}"}
+{"level":"debug","time":"2024-12-12T13:34:28.382+0530","caller":"apiserver/setup.go:90","msg":"Tests discovered &{IsTestNGXmlSuite:true DiscoveredItems:[Test_Notification_GeoLocation Test_Text_And_Toast Test_Change_Color] DiscoveryResults:map[]}"}
+{"level":"debug","time":"2024-12-12T13:34:28.598+0530","caller":"testdiscoverer/discoverer.go:211","msg":"Stdout: [INFO] Scanning for projects...\r\n[WARNING] \r\n[WARNING] Some problems were encountered while building the effective model for org.example:AppTest:jar:1.0-SNAPSHOT\r\n[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.testng:testng:jar -> duplicate declaration of version 7.4.0 @ line 54, column 21\r\n[WARNING] \r\n[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.\r\n[WARNING] \r\n[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.\r\n[WARNING] \r\n[INFO] Added surefire 3.0.0-M5 as dependency in effective pom\r\n[INFO] Configured: AppTest\r\n[INFO] \r\n[INFO] ------------------------< org.example:AppTest >-------------------------\r\n[INFO] Building AppTest 1.0-SNAPSHOT\r\n[INFO]   from pom.xml\r\n[INFO] --------------------------------[ jar ]---------------------------------\r\n[INFO] \r\n[INFO] --- resources:3.3.1:resources (default-resources) @ AppTest ---\r\n[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!\r\n[INFO] skip non existing resourceDirectory D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\src\\main\\resources\r\n[INFO] \r\n[INFO] --- compiler:3.8.1:compile (default-compile) @ AppTest ---\r\n[INFO] Nothing to compile - all classes are up to date\r\n[INFO] \r\n[INFO] --- resources:3.3.1:testResources (default-testResources) @ AppTest ---\r\n[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!\r\n[INFO] skip non existing resourceDirectory D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\src\\test\\resources\r\n[INFO] \r\n[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ AppTest ---\r\n[INFO] Nothing to compile - all classes are up to date\r\n[INFO] \r\n[INFO] --- surefire:3.0.0-M5:test (default-test) @ AppTest ---\r\n[INFO] \r\n[INFO] -------------------------------------------------------\r\n[INFO]  T E S T S\r\n[INFO] -------------------------------------------------------\r\n[ERROR] SLF4J: Failed to load class \"org.slf4j.impl.StaticLoggerBinder\".\r\n[ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation\r\n[ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.\r\n[INFO] Total tests discovered: 3\r\n[INFO] Total suites discovered: 0\r\n[INFO] request body: {\"discoveredItems\":[\"Test_Notification_GeoLocation\",\"Test_Text_And_Toast\",\"Test_Change_Color\"],\"discoveryResultMap\":{},\"testNGXMLSuite\":true}\r\n[INFO] \r\n[INFO] Results:\r\n[INFO] \r\n[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0\r\n[INFO] \r\n[WARNING] Corrupted STDOUT by directly writing to native stream in forked JVM 1. See FAQ web page and the dump file D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\target\\surefire-reports\\2024-12-12T13-34-22_994-jvmRun1.dumpstream\r\n[INFO] ------------------------------------------------------------------------\r\n[INFO] BUILD SUCCESS\r\n[INFO] ------------------------------------------------------------------------\r\n[INFO] Total time:  9.811 s\r\n[INFO] Finished at: 2024-12-12T13:34:28+05:30\r\n[INFO] ------------------------------------------------------------------------\r\n"}
+{"level":"debug","time":"2024-12-12T13:34:28.598+0530","caller":"testdiscoverer/discoverer.go:212","msg":"Stderr: "}
+{"level":"info","time":"2024-12-12T13:34:29.098+0530","caller":"core/lifecycle.go:321","msg":"Total tests discovered: 3"}
+{"level":"info","time":"2024-12-12T13:34:29.099+0530","caller":"core/lifecycle.go:324","msg":"Concurrency 5 is getting overwritten by 3"}
+{"level":"debug","time":"2024-12-12T13:34:30.723+0530","caller":"core/lifecycle.go:467","msg":"Job ID: eb651c7f-9a7c-43d6-97ab-e798d0baa5b1"}
+{"level":"debug","time":"2024-12-12T13:34:30.723+0530","caller":"core/lifecycle.go:473","msg":"User has provided android/appium as test type for the job with ID eb651c7f-9a7c-43d6-97ab-e798d0baa5b1"}
+{"level":"debug","time":"2024-12-12T13:34:30.723+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2024-12-12T13:34:30.723+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2024-12-12T13:34:30.725+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2024-12-12T13:34:30.725+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng"}
+{"level":"debug","time":"2024-12-12T13:34:31.707+0530","caller":"storage/azure.go:59","msg":"Payload size: 26.71 kB, source path C:\\Users\\AMITWA~1\\AppData\\Local\\Temp\\git.diff"}
+{"level":"debug","time":"2024-12-12T13:34:31.742+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2024-12-12T13:34:32.009+0530","caller":"core/lifecycle.go:602","msg":"Zip file size: 14.03 MB"}
+{"level":"debug","time":"2024-12-12T13:34:32.011+0530","caller":"core/lifecycle.go:612","msg":"Archive location: D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\hyperexecute-code-eb651c7f-9a7c-43d6-97ab-e798d0baa5b1.zip\n"}
+{"level":"debug","time":"2024-12-12T13:34:32.012+0530","caller":"storage/azure.go:59","msg":"Payload size: 14.03 MB, source path D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\hyperexecute-code-eb651c7f-9a7c-43d6-97ab-e798d0baa5b1.zip"}
+{"level":"info","time":"2024-12-12T13:34:39.573+0530","caller":"storage/azure.go:114","msg":"File upload completed in 7.8662946s"}
+{"level":"info","time":"2024-12-12T13:34:57.040+0530","caller":"storage/azure.go:114","msg":"File upload completed in 25.0282953s"}
+{"level":"debug","time":"2024-12-12T13:34:57.042+0530","caller":"receptionmanager/setup.go:251","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-12-12T13:34:57.043+0530","caller":"receptionmanager/setup.go:280","msg":"number of entries in partialreports: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-12-12T13:34:57.044+0530","caller":"receptionmanager/setup.go:168","msg":"Uploading yaml : D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-12-12T13:34:57.045+0530","caller":"storage/azure.go:59","msg":"Payload size: 2.95 kB, source path D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\.updatedhyperexecute.yaml"}
+{"level":"info","time":"2024-12-12T13:35:03.900+0530","caller":"storage/azure.go:114","msg":"File upload completed in 6.854944s"}
+{"level":"debug","time":"2024-12-12T13:35:03.906+0530","caller":"core/lifecycle.go:639","msg":"Successfully deleted code archive: D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\hyperexecute-code-eb651c7f-9a7c-43d6-97ab-e798d0baa5b1.zip\n"}
+{"level":"debug","time":"2024-12-12T13:35:03.909+0530","caller":"storage/azure.go:59","msg":"Payload size: 400 B, source path yaml\\android\\mask-eb651c7f-9a7c-43d6-97ab-e798d0baa5b1.yaml"}
+{"level":"info","time":"2024-12-12T13:35:11.211+0530","caller":"storage/azure.go:114","msg":"File upload completed in 7.3028306s"}
+{"level":"debug","time":"2024-12-12T13:35:12.945+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 32711821-39b3-480f-b460-2f9018a8c17e"}
+{"level":"debug","time":"2024-12-12T13:35:12.946+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 32711821-39b3-480f-b460-2f9018a8c17e"}
+{"level":"debug","time":"2024-12-12T13:35:12.946+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: d1859f68-90f8-4e03-9403-4c86534da19a"}
+{"level":"debug","time":"2024-12-12T13:35:12.946+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: d1859f68-90f8-4e03-9403-4c86534da19a"}
+{"level":"debug","time":"2024-12-12T13:35:12.946+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 933b3cb8-68a6-4ad8-8768-b818400e7fb1"}
+{"level":"debug","time":"2024-12-12T13:35:12.946+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 933b3cb8-68a6-4ad8-8768-b818400e7fb1"}
+{"level":"info","time":"2024-12-12T13:35:16.012+0530","caller":"jobmanager/sse_setup.go:85","msg":"\nJob eb651c7f-9a7c-43d6-97ab-e798d0baa5b1 has started RUNNING"}
+{"level":"info","time":"2024-12-12T13:35:16.013+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=eb651c7f-9a7c-43d6-97ab-e798d0baa5b1\n"}
+{"level":"info","time":"2024-12-12T13:35:19.329+0530","caller":"terminal/terminal.go:187","msg":"✔ [2]  cache-download (2s)\n"}
+{"level":"info","time":"2024-12-12T13:35:19.333+0530","caller":"terminal/terminal.go:187","msg":"✔ [1]  cache-download (2s)\n"}
+{"level":"info","time":"2024-12-12T13:35:20.023+0530","caller":"terminal/terminal.go:187","msg":"✔ [3]  cache-download (3s)\n"}
+{"level":"info","time":"2024-12-12T13:35:26.398+0530","caller":"terminal/terminal.go:187","msg":"✔ [2]  pre (7s)\n"}
+{"level":"info","time":"2024-12-12T13:35:26.489+0530","caller":"terminal/terminal.go:187","msg":"✔ [1]  pre (7s)\n"}
+{"level":"info","time":"2024-12-12T13:35:26.725+0530","caller":"terminal/terminal.go:187","msg":"✔ [3]  pre (7s)\n"}
+{"level":"info","time":"2024-12-12T13:35:27.290+0530","caller":"terminal/terminal.go:187","msg":"✔ [1]  discovery (0s)\n"}
+{"level":"info","time":"2024-12-12T13:35:27.327+0530","caller":"terminal/terminal.go:187","msg":"✔ [2]  discovery (1s)\n"}
+{"level":"info","time":"2024-12-12T13:35:27.381+0530","caller":"terminal/terminal.go:187","msg":"✔ [3]  discovery (1s)\n"}
+{"level":"info","time":"2024-12-12T13:36:01.282+0530","caller":"terminal/terminal.go:187","msg":"✔ [2]  Test_Text_And_Toast (26s)\n"}
+{"level":"info","time":"2024-12-12T13:36:03.016+0530","caller":"terminal/terminal.go:187","msg":"x [1]  Test_Notification_GeoLocation (27s)\n"}
+{"level":"info","time":"2024-12-12T13:36:04.349+0530","caller":"terminal/terminal.go:187","msg":"✔ [3]  Test_Change_Color (29s)\n"}
+{"level":"info","time":"2024-12-12T13:36:34.010+0530","caller":"terminal/terminal.go:187","msg":"x [1]  {retry 1} Test_Notification_GeoLocation (27s)\n"}
+{"level":"info","time":"2024-12-12T13:37:02.043+0530","caller":"terminal/terminal.go:187","msg":"✔ [1]  {retry 2} Test_Notification_GeoLocation (24s)\n"}
+{"level":"debug","time":"2024-12-12T13:37:08.503+0530","caller":"jobmanager/sse_setup.go:136","msg":"\n\nJob status"}
+{"level":"debug","time":"2024-12-12T13:37:08.503+0530","caller":"core/lifecycle.go:817","msg":"Context canceled"}
+{"level":"debug","time":"2024-12-12T13:37:08.504+0530","caller":"apiserver/setup.go:107","msg":"Shutting down the api server"}
+{"level":"info","time":"2024-12-12T13:37:08.503+0530","caller":"core/lifecycle.go:820","msg":"Stopping pipeline gracefully"}
+{"level":"info","time":"2024-12-12T13:37:08.504+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=eb651c7f-9a7c-43d6-97ab-e798d0baa5b1\n"}
+{"level":"debug","time":"2024-12-12T13:37:08.505+0530","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-12-12T13:37:08.505+0530","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2024-12-12T13:37:08.809+0530","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n COMPLETED \n"}
+{"level":"info","time":"2024-12-12T13:37:08.810+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Test Execution Time:                  1m6s"}
+{"level":"info","time":"2024-12-12T13:37:08.810+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Job Duration Time:                    1m52s"}
+{"level":"info","time":"2024-12-12T13:37:08.811+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Tasks:                          3"}
+{"level":"info","time":"2024-12-12T13:37:08.811+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Cumulative Time Consumed:             3m37s"}
+{"level":"info","time":"2024-12-12T13:37:08.812+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Stages:                         9"}
+{"level":"info","time":"2024-12-12T13:37:08.813+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass discovery stage percentage:      100.00%"}
+{"level":"info","time":"2024-12-12T13:37:08.813+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed discovery stage percentage:    0.00%"}
+{"level":"info","time":"2024-12-12T13:37:08.814+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass pre stage percentage:            100.00%"}
+{"level":"info","time":"2024-12-12T13:37:08.814+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed pre stage percentage:          0.00%"}
+{"level":"info","time":"2024-12-12T13:37:08.814+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass test stage percentage:           66.67%"}
+{"level":"info","time":"2024-12-12T13:37:08.814+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed test stage percentage:         33.33%"}
+{"level":"info","time":"2024-12-12T13:37:08.815+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass post stage percentage:           0.00%"}
+{"level":"info","time":"2024-12-12T13:37:08.815+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed post stage percentage:         0.00%"}
+{"level":"info","time":"2024-12-12T13:37:08.815+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed Tasks:                         0"}
+{"level":"info","time":"2024-12-12T13:37:08.816+0530","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"debug","time":"2024-12-12T13:37:38.514+0530","caller":"cmd/bin.go:330","msg":"main: all goroutines have finished."}
+{"level":"warn","time":"2024-12-12T13:38:26.319+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-12-12T13:38:26.319+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-12-12T13:38:28.014+0530","caller":"cmd/bin.go:121","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-12-12T13:38:28.361+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.239} "}
+{"level":"warn","time":"2024-12-12T13:38:28.363+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-12-12T13:38:28.365+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-12-12T13:38:32.012+0530","caller":"core/lifecycle.go:104","msg":"Setting environment"}
+{"level":"debug","time":"2024-12-12T13:38:32.012+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2024-12-12T13:38:32.012+0530","caller":"yamlconfigmanager/setup.go:605","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/android/hyp-rd-android-single.yaml"}
+{"level":"debug","time":"2024-12-12T13:38:32.012+0530","caller":"yamlconfigmanager/setup.go:109","msg":"using hyperexecute config from : yaml/android/hyp-rd-android-single.yaml"}
+{"level":"debug","time":"2024-12-12T13:38:33.058+0530","caller":"yamlconfigmanager/setup.go:2306","msg":"Autodetecting test type in files of path : D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng"}
+{"level":"debug","time":"2024-12-12T13:38:33.059+0530","caller":"yamlconfigmanager/setup.go:451","msg":"Tunnel: false"}
+{"level":"info","time":"2024-12-12T13:38:33.059+0530","caller":"models/HypertestYamlConfig.go:730","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2024-12-12T13:38:33.059+0530","caller":"models/HypertestYamlConfig.go:531","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:38:33.060+0530","caller":"models/HypertestYamlConfig.go:591","msg":"Runson:    \u001b[36mlinux\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:38:33.060+0530","caller":"models/HypertestYamlConfig.go:599","msg":"Concurrency:    \u001b[36m5\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:38:33.060+0530","caller":"models/HypertestYamlConfig.go:616","msg":"Framework:"}
+{"level":"info","time":"2024-12-12T13:38:33.060+0530","caller":"models/HypertestYamlConfig.go:617","msg":"    Name:    \u001b[36mmaven/testng\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:38:33.060+0530","caller":"models/HypertestYamlConfig.go:622","msg":"    Flags:"}
+{"level":"info","time":"2024-12-12T13:38:33.060+0530","caller":"models/HypertestYamlConfig.go:624","msg":"        \u001b[36m-Pandroid-single\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:38:33.060+0530","caller":"models/HypertestYamlConfig.go:634","msg":"    Discovery Mode:    \u001b[36mlocal\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:38:33.061+0530","caller":"models/HypertestYamlConfig.go:652","msg":"    discoveryType:    \u001b[36mxmltest\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:38:33.061+0530","caller":"models/HypertestYamlConfig.go:663","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:38:33.061+0530","caller":"models/HypertestYamlConfig.go:720","msg":"Job Priority:    \u001b[36mhigh\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:38:33.062+0530","caller":"models/HypertestYamlConfig.go:743","msg":""}
+{"level":"debug","time":"2024-12-12T13:38:33.062+0530","caller":"filevalidator/setup.go:47","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-12-12T13:38:33.062+0530","caller":"filevalidator/setup.go:51","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2024-12-12T13:38:33.062+0530","caller":"frameworks/framework.go:60","msg":"version: 0.2"}
+{"level":"debug","time":"2024-12-12T13:38:33.063+0530","caller":"apiserver/setup.go:195","msg":"Starting API server"}
+{"level":"debug","time":"2024-12-12T13:38:33.063+0530","caller":"apiserver/setup.go:111","msg":"Starting API server for test results on port: 9191"}
+{"level":"debug","time":"2024-12-12T13:38:35.562+0530","caller":"java/maven.go:78","msg":"got asset version details &{Name:java-runner Min:0.10 Max:0.10}"}
+{"level":"debug","time":"2024-12-12T13:38:43.142+0530","caller":"java/maven.go:110","msg":"java runner already up to date"}
+{"level":"info","time":"2024-12-12T13:38:43.143+0530","caller":"appium/appium.go:131","msg":"Using app with unique id - "}
+{"level":"debug","time":"2024-12-12T13:38:43.143+0530","caller":"testdiscoverer/discoverer.go:176","msg":"Running discovery command: {mvn test -Dframework=testng -Pandroid-single -DdiscoveryType=xmltest -Dmode=discover -DfailIfNoTests=false []}"}
+{"level":"debug","time":"2024-12-12T13:39:02.791+0530","caller":"apiserver/setup.go:90","msg":"Tests discovered &{IsTestNGXmlSuite:true DiscoveredItems:[Test_Notification_GeoLocation Test_Text_And_Toast Test_Change_Color] DiscoveryResults:map[]}"}
+{"level":"debug","time":"2024-12-12T13:39:03.032+0530","caller":"testdiscoverer/discoverer.go:211","msg":"Stdout: [INFO] Scanning for projects...\r\n[WARNING] \r\n[WARNING] Some problems were encountered while building the effective model for org.example:AppTest:jar:1.0-SNAPSHOT\r\n[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.testng:testng:jar -> duplicate declaration of version 7.4.0 @ line 54, column 21\r\n[WARNING] \r\n[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.\r\n[WARNING] \r\n[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.\r\n[WARNING] \r\n[INFO] Added surefire 3.0.0-M5 as dependency in effective pom\r\n[INFO] Configured: AppTest\r\n[INFO] \r\n[INFO] ------------------------< org.example:AppTest >-------------------------\r\n[INFO] Building AppTest 1.0-SNAPSHOT\r\n[INFO]   from pom.xml\r\n[INFO] --------------------------------[ jar ]---------------------------------\r\n[INFO] \r\n[INFO] --- resources:3.3.1:resources (default-resources) @ AppTest ---\r\n[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!\r\n[INFO] skip non existing resourceDirectory D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\src\\main\\resources\r\n[INFO] \r\n[INFO] --- compiler:3.8.1:compile (default-compile) @ AppTest ---\r\n[INFO] Nothing to compile - all classes are up to date\r\n[INFO] \r\n[INFO] --- resources:3.3.1:testResources (default-testResources) @ AppTest ---\r\n[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!\r\n[INFO] skip non existing resourceDirectory D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\src\\test\\resources\r\n[INFO] \r\n[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ AppTest ---\r\n[INFO] Nothing to compile - all classes are up to date\r\n[INFO] \r\n[INFO] --- surefire:3.0.0-M5:test (default-test) @ AppTest ---\r\n[INFO] \r\n[INFO] -------------------------------------------------------\r\n[INFO]  T E S T S\r\n[INFO] -------------------------------------------------------\r\n[ERROR] SLF4J: Failed to load class \"org.slf4j.impl.StaticLoggerBinder\".\r\n[ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation\r\n[ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.\r\n[INFO] Total tests discovered: 3\r\n[INFO] Total suites discovered: 0\r\n[INFO] request body: {\"discoveredItems\":[\"Test_Notification_GeoLocation\",\"Test_Text_And_Toast\",\"Test_Change_Color\"],\"discoveryResultMap\":{},\"testNGXMLSuite\":true}\r\n[INFO] \r\n[INFO] Results:\r\n[INFO] \r\n[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0\r\n[INFO] \r\n[WARNING] Corrupted STDOUT by directly writing to native stream in forked JVM 1. See FAQ web page and the dump file D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\target\\surefire-reports\\2024-12-12T13-38-56_846-jvmRun1.dumpstream\r\n[INFO] ------------------------------------------------------------------------\r\n[INFO] BUILD SUCCESS\r\n[INFO] ------------------------------------------------------------------------\r\n[INFO] Total time:  12.835 s\r\n[INFO] Finished at: 2024-12-12T13:39:02+05:30\r\n[INFO] ------------------------------------------------------------------------\r\n"}
+{"level":"debug","time":"2024-12-12T13:39:03.033+0530","caller":"testdiscoverer/discoverer.go:212","msg":"Stderr: "}
+{"level":"info","time":"2024-12-12T13:39:03.547+0530","caller":"core/lifecycle.go:321","msg":"Total tests discovered: 3"}
+{"level":"info","time":"2024-12-12T13:39:03.547+0530","caller":"core/lifecycle.go:324","msg":"Concurrency 5 is getting overwritten by 3"}
+{"level":"debug","time":"2024-12-12T13:39:04.262+0530","caller":"core/lifecycle.go:467","msg":"Job ID: a2191cf5-825c-435a-915b-bf1aa4c1ee51"}
+{"level":"debug","time":"2024-12-12T13:39:04.262+0530","caller":"core/lifecycle.go:473","msg":"User has provided android/appium as test type for the job with ID a2191cf5-825c-435a-915b-bf1aa4c1ee51"}
+{"level":"debug","time":"2024-12-12T13:39:04.262+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2024-12-12T13:39:04.262+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2024-12-12T13:39:04.264+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2024-12-12T13:39:04.264+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng"}
+{"level":"debug","time":"2024-12-12T13:39:05.298+0530","caller":"storage/azure.go:59","msg":"Payload size: 26.71 kB, source path C:\\Users\\AMITWA~1\\AppData\\Local\\Temp\\git.diff"}
+{"level":"debug","time":"2024-12-12T13:39:05.376+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2024-12-12T13:39:05.399+0530","caller":"core/lifecycle.go:602","msg":"Zip file size: 14.03 MB"}
+{"level":"debug","time":"2024-12-12T13:39:05.399+0530","caller":"core/lifecycle.go:612","msg":"Archive location: D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\hyperexecute-code-a2191cf5-825c-435a-915b-bf1aa4c1ee51.zip\n"}
+{"level":"debug","time":"2024-12-12T13:39:05.401+0530","caller":"storage/azure.go:59","msg":"Payload size: 14.03 MB, source path D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\hyperexecute-code-a2191cf5-825c-435a-915b-bf1aa4c1ee51.zip"}
+{"level":"info","time":"2024-12-12T13:39:10.920+0530","caller":"storage/azure.go:114","msg":"File upload completed in 5.6220752s"}
+{"level":"info","time":"2024-12-12T13:39:28.696+0530","caller":"storage/azure.go:114","msg":"File upload completed in 23.2963217s"}
+{"level":"debug","time":"2024-12-12T13:39:28.698+0530","caller":"receptionmanager/setup.go:251","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-12-12T13:39:28.698+0530","caller":"receptionmanager/setup.go:280","msg":"number of entries in partialreports: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-12-12T13:39:28.698+0530","caller":"receptionmanager/setup.go:168","msg":"Uploading yaml : D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-12-12T13:39:28.699+0530","caller":"storage/azure.go:59","msg":"Payload size: 2.95 kB, source path D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\.updatedhyperexecute.yaml"}
+{"level":"info","time":"2024-12-12T13:39:33.681+0530","caller":"storage/azure.go:114","msg":"File upload completed in 4.982983s"}
+{"level":"debug","time":"2024-12-12T13:39:33.685+0530","caller":"core/lifecycle.go:639","msg":"Successfully deleted code archive: D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\hyperexecute-code-a2191cf5-825c-435a-915b-bf1aa4c1ee51.zip\n"}
+{"level":"debug","time":"2024-12-12T13:39:33.687+0530","caller":"storage/azure.go:59","msg":"Payload size: 400 B, source path yaml\\android\\mask-a2191cf5-825c-435a-915b-bf1aa4c1ee51.yaml"}
+{"level":"info","time":"2024-12-12T13:39:39.817+0530","caller":"storage/azure.go:114","msg":"File upload completed in 6.1313151s"}
+{"level":"debug","time":"2024-12-12T13:39:43.945+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: c14e15cc-47d1-4b2c-a8e7-35ca8ededb06"}
+{"level":"debug","time":"2024-12-12T13:39:43.945+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: c14e15cc-47d1-4b2c-a8e7-35ca8ededb06"}
+{"level":"debug","time":"2024-12-12T13:39:43.945+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 3d6c3bb1-0729-4b98-8db0-290d38a993b5"}
+{"level":"debug","time":"2024-12-12T13:39:43.945+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 3d6c3bb1-0729-4b98-8db0-290d38a993b5"}
+{"level":"debug","time":"2024-12-12T13:39:43.945+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 735dd863-b031-47cb-8923-113d8a43bb85"}
+{"level":"debug","time":"2024-12-12T13:39:43.945+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 735dd863-b031-47cb-8923-113d8a43bb85"}
+{"level":"info","time":"2024-12-12T13:39:44.952+0530","caller":"jobmanager/sse_setup.go:85","msg":"\nJob a2191cf5-825c-435a-915b-bf1aa4c1ee51 has started RUNNING"}
+{"level":"info","time":"2024-12-12T13:39:44.952+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=a2191cf5-825c-435a-915b-bf1aa4c1ee51\n"}
+{"level":"info","time":"2024-12-12T13:39:48.569+0530","caller":"terminal/terminal.go:187","msg":"✔ [3]  cache-download (2s)\n"}
+{"level":"info","time":"2024-12-12T13:39:48.610+0530","caller":"terminal/terminal.go:187","msg":"✔ [2]  cache-download (3s)\n"}
+{"level":"info","time":"2024-12-12T13:39:48.675+0530","caller":"terminal/terminal.go:187","msg":"✔ [1]  cache-download (3s)\n"}
+{"level":"info","time":"2024-12-12T13:39:55.852+0530","caller":"terminal/terminal.go:187","msg":"✔ [2]  pre (7s)\n"}
+{"level":"info","time":"2024-12-12T13:39:55.906+0530","caller":"terminal/terminal.go:187","msg":"✔ [3]  pre (7s)\n"}
+{"level":"info","time":"2024-12-12T13:39:56.163+0530","caller":"terminal/terminal.go:187","msg":"✔ [1]  pre (8s)\n"}
+{"level":"info","time":"2024-12-12T13:39:56.497+0530","caller":"terminal/terminal.go:187","msg":"✔ [2]  discovery (0s)\n"}
+{"level":"info","time":"2024-12-12T13:39:56.881+0530","caller":"terminal/terminal.go:187","msg":"✔ [3]  discovery (1s)\n"}
+{"level":"info","time":"2024-12-12T13:39:57.120+0530","caller":"terminal/terminal.go:187","msg":"✔ [1]  discovery (1s)\n"}
+{"level":"info","time":"2024-12-12T13:40:32.202+0530","caller":"terminal/terminal.go:187","msg":"✔ [3]  Test_Notification_GeoLocation (27s)\n"}
+{"level":"info","time":"2024-12-12T13:40:34.891+0530","caller":"terminal/terminal.go:187","msg":"✔ [2]  Test_Change_Color (30s)\n"}
+{"level":"info","time":"2024-12-12T13:40:39.681+0530","caller":"terminal/terminal.go:187","msg":"✔ [1]  Test_Text_And_Toast (35s)\n"}
+{"level":"debug","time":"2024-12-12T13:40:46.240+0530","caller":"jobmanager/sse_setup.go:136","msg":"\n\nJob status"}
+{"level":"debug","time":"2024-12-12T13:40:46.240+0530","caller":"core/lifecycle.go:817","msg":"Context canceled"}
+{"level":"debug","time":"2024-12-12T13:40:46.240+0530","caller":"apiserver/setup.go:107","msg":"Shutting down the api server"}
+{"level":"info","time":"2024-12-12T13:40:46.240+0530","caller":"core/lifecycle.go:820","msg":"Stopping pipeline gracefully"}
+{"level":"info","time":"2024-12-12T13:40:46.241+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=a2191cf5-825c-435a-915b-bf1aa4c1ee51\n"}
+{"level":"debug","time":"2024-12-12T13:40:46.241+0530","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-12-12T13:40:46.241+0530","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2024-12-12T13:40:46.873+0530","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n COMPLETED \n"}
+{"level":"info","time":"2024-12-12T13:40:46.873+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Test Execution Time:                  12s"}
+{"level":"info","time":"2024-12-12T13:40:46.874+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Job Duration Time:                    1m1s"}
+{"level":"info","time":"2024-12-12T13:40:46.874+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Tasks:                          3"}
+{"level":"info","time":"2024-12-12T13:40:46.874+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Cumulative Time Consumed:             2m50s"}
+{"level":"info","time":"2024-12-12T13:40:46.875+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Stages:                         9"}
+{"level":"info","time":"2024-12-12T13:40:46.875+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass discovery stage percentage:      100.00%"}
+{"level":"info","time":"2024-12-12T13:40:46.875+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed discovery stage percentage:    0.00%"}
+{"level":"info","time":"2024-12-12T13:40:46.875+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass pre stage percentage:            100.00%"}
+{"level":"info","time":"2024-12-12T13:40:46.875+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed pre stage percentage:          0.00%"}
+{"level":"info","time":"2024-12-12T13:40:46.876+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass test stage percentage:           100.00%"}
+{"level":"info","time":"2024-12-12T13:40:46.876+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed test stage percentage:         0.00%"}
+{"level":"info","time":"2024-12-12T13:40:46.877+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass post stage percentage:           0.00%"}
+{"level":"info","time":"2024-12-12T13:40:46.877+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed post stage percentage:         0.00%"}
+{"level":"info","time":"2024-12-12T13:40:46.877+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed Tasks:                         0"}
+{"level":"info","time":"2024-12-12T13:40:46.877+0530","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"debug","time":"2024-12-12T13:41:16.248+0530","caller":"cmd/bin.go:330","msg":"main: all goroutines have finished."}
+{"level":"warn","time":"2024-12-12T13:42:03.802+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-12-12T13:42:03.804+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-12-12T13:42:04.768+0530","caller":"cmd/bin.go:121","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-12-12T13:42:05.804+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.239} "}
+{"level":"warn","time":"2024-12-12T13:42:05.806+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-12-12T13:42:05.806+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-12-12T13:42:08.001+0530","caller":"core/lifecycle.go:104","msg":"Setting environment"}
+{"level":"debug","time":"2024-12-12T13:42:08.001+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2024-12-12T13:42:08.002+0530","caller":"yamlconfigmanager/setup.go:605","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/android/hyp-rd-android-single.yaml"}
+{"level":"debug","time":"2024-12-12T13:42:08.002+0530","caller":"yamlconfigmanager/setup.go:109","msg":"using hyperexecute config from : yaml/android/hyp-rd-android-single.yaml"}
+{"level":"debug","time":"2024-12-12T13:42:08.532+0530","caller":"yamlconfigmanager/setup.go:2306","msg":"Autodetecting test type in files of path : D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng"}
+{"level":"debug","time":"2024-12-12T13:42:08.532+0530","caller":"yamlconfigmanager/setup.go:451","msg":"Tunnel: false"}
+{"level":"info","time":"2024-12-12T13:42:08.532+0530","caller":"models/HypertestYamlConfig.go:730","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2024-12-12T13:42:08.533+0530","caller":"models/HypertestYamlConfig.go:531","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:42:08.533+0530","caller":"models/HypertestYamlConfig.go:591","msg":"Runson:    \u001b[36mlinux\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:42:08.533+0530","caller":"models/HypertestYamlConfig.go:599","msg":"Concurrency:    \u001b[36m5\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:42:08.534+0530","caller":"models/HypertestYamlConfig.go:616","msg":"Framework:"}
+{"level":"info","time":"2024-12-12T13:42:08.534+0530","caller":"models/HypertestYamlConfig.go:617","msg":"    Name:    \u001b[36mmaven/testng\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:42:08.534+0530","caller":"models/HypertestYamlConfig.go:622","msg":"    Flags:"}
+{"level":"info","time":"2024-12-12T13:42:08.534+0530","caller":"models/HypertestYamlConfig.go:624","msg":"        \u001b[36m-Pandroid-single\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:42:08.534+0530","caller":"models/HypertestYamlConfig.go:634","msg":"    Discovery Mode:    \u001b[36mlocal\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:42:08.535+0530","caller":"models/HypertestYamlConfig.go:652","msg":"    discoveryType:    \u001b[36mxmltest\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:42:08.535+0530","caller":"models/HypertestYamlConfig.go:663","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:42:08.535+0530","caller":"models/HypertestYamlConfig.go:720","msg":"Job Priority:    \u001b[36mhigh\u001b[0m"}
+{"level":"info","time":"2024-12-12T13:42:08.535+0530","caller":"models/HypertestYamlConfig.go:743","msg":""}
+{"level":"debug","time":"2024-12-12T13:42:08.535+0530","caller":"filevalidator/setup.go:47","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-12-12T13:42:08.535+0530","caller":"filevalidator/setup.go:51","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2024-12-12T13:42:08.535+0530","caller":"frameworks/framework.go:60","msg":"version: 0.2"}
+{"level":"debug","time":"2024-12-12T13:42:08.536+0530","caller":"apiserver/setup.go:195","msg":"Starting API server"}
+{"level":"debug","time":"2024-12-12T13:42:08.537+0530","caller":"apiserver/setup.go:111","msg":"Starting API server for test results on port: 9191"}
+{"level":"debug","time":"2024-12-12T13:42:10.013+0530","caller":"java/maven.go:78","msg":"got asset version details &{Name:java-runner Min:0.10 Max:0.10}"}
+{"level":"debug","time":"2024-12-12T13:42:16.580+0530","caller":"java/maven.go:110","msg":"java runner already up to date"}
+{"level":"info","time":"2024-12-12T13:42:16.580+0530","caller":"appium/appium.go:131","msg":"Using app with unique id - "}
+{"level":"debug","time":"2024-12-12T13:42:16.580+0530","caller":"testdiscoverer/discoverer.go:176","msg":"Running discovery command: {mvn test -Dframework=testng -Pandroid-single -DdiscoveryType=xmltest -Dmode=discover -DfailIfNoTests=false []}"}
+{"level":"debug","time":"2024-12-12T13:42:30.919+0530","caller":"apiserver/setup.go:90","msg":"Tests discovered &{IsTestNGXmlSuite:true DiscoveredItems:[Test_Notification_GeoLocation Test_Text_And_Toast Test_Change_Color] DiscoveryResults:map[]}"}
+{"level":"debug","time":"2024-12-12T13:42:31.149+0530","caller":"testdiscoverer/discoverer.go:211","msg":"Stdout: [INFO] Scanning for projects...\r\n[WARNING] \r\n[WARNING] Some problems were encountered while building the effective model for org.example:AppTest:jar:1.0-SNAPSHOT\r\n[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.testng:testng:jar -> duplicate declaration of version 7.4.0 @ line 54, column 21\r\n[WARNING] \r\n[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.\r\n[WARNING] \r\n[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.\r\n[WARNING] \r\n[INFO] Added surefire 3.0.0-M5 as dependency in effective pom\r\n[INFO] Configured: AppTest\r\n[INFO] \r\n[INFO] ------------------------< org.example:AppTest >-------------------------\r\n[INFO] Building AppTest 1.0-SNAPSHOT\r\n[INFO]   from pom.xml\r\n[INFO] --------------------------------[ jar ]---------------------------------\r\n[INFO] \r\n[INFO] --- resources:3.3.1:resources (default-resources) @ AppTest ---\r\n[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!\r\n[INFO] skip non existing resourceDirectory D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\src\\main\\resources\r\n[INFO] \r\n[INFO] --- compiler:3.8.1:compile (default-compile) @ AppTest ---\r\n[INFO] Changes detected - recompiling the module!\r\n[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!\r\n[INFO] Compiling 5 source files to D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\target\\classes\r\n[INFO] /D:/demos/hyperexecute/appium01/hyperexecute-appium-testng/src/main/java/TestTextAndToast.java: Some input files use or override a deprecated API.\r\n[INFO] /D:/demos/hyperexecute/appium01/hyperexecute-appium-testng/src/main/java/TestTextAndToast.java: Recompile with -Xlint:deprecation for details.\r\n[INFO] \r\n[INFO] --- resources:3.3.1:testResources (default-testResources) @ AppTest ---\r\n[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!\r\n[INFO] skip non existing resourceDirectory D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\src\\test\\resources\r\n[INFO] \r\n[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ AppTest ---\r\n[INFO] Changes detected - recompiling the module!\r\n[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!\r\n[INFO] \r\n[INFO] --- surefire:3.0.0-M5:test (default-test) @ AppTest ---\r\n[INFO] \r\n[INFO] -------------------------------------------------------\r\n[INFO]  T E S T S\r\n[INFO] -------------------------------------------------------\r\n[ERROR] SLF4J: Failed to load class \"org.slf4j.impl.StaticLoggerBinder\".\r\n[ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation\r\n[ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.\r\n[INFO] Total tests discovered: 3\r\n[INFO] Total suites discovered: 0\r\n[INFO] request body: {\"discoveredItems\":[\"Test_Notification_GeoLocation\",\"Test_Text_And_Toast\",\"Test_Change_Color\"],\"discoveryResultMap\":{},\"testNGXMLSuite\":true}\r\n[INFO] \r\n[INFO] Results:\r\n[INFO] \r\n[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0\r\n[INFO] \r\n[WARNING] Corrupted STDOUT by directly writing to native stream in forked JVM 1. See FAQ web page and the dump file D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\target\\surefire-reports\\2024-12-12T13-42-27_618-jvmRun1.dumpstream\r\n[INFO] ------------------------------------------------------------------------\r\n[INFO] BUILD SUCCESS\r\n[INFO] ------------------------------------------------------------------------\r\n[INFO] Total time:  8.912 s\r\n[INFO] Finished at: 2024-12-12T13:42:31+05:30\r\n[INFO] ------------------------------------------------------------------------\r\n"}
+{"level":"debug","time":"2024-12-12T13:42:31.149+0530","caller":"testdiscoverer/discoverer.go:212","msg":"Stderr: "}
+{"level":"info","time":"2024-12-12T13:42:31.653+0530","caller":"core/lifecycle.go:321","msg":"Total tests discovered: 3"}
+{"level":"info","time":"2024-12-12T13:42:31.653+0530","caller":"core/lifecycle.go:324","msg":"Concurrency 5 is getting overwritten by 3"}
+{"level":"debug","time":"2024-12-12T13:42:32.263+0530","caller":"core/lifecycle.go:467","msg":"Job ID: 421c3eae-bc97-4f50-96db-63ec3c06f37d"}
+{"level":"debug","time":"2024-12-12T13:42:32.263+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2024-12-12T13:42:32.264+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2024-12-12T13:42:32.264+0530","caller":"core/lifecycle.go:473","msg":"User has provided android/appium as test type for the job with ID 421c3eae-bc97-4f50-96db-63ec3c06f37d"}
+{"level":"debug","time":"2024-12-12T13:42:32.266+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2024-12-12T13:42:32.266+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng"}
+{"level":"debug","time":"2024-12-12T13:42:32.947+0530","caller":"core/lifecycle.go:602","msg":"Zip file size: 14.03 MB"}
+{"level":"debug","time":"2024-12-12T13:42:32.948+0530","caller":"core/lifecycle.go:612","msg":"Archive location: D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\hyperexecute-code-421c3eae-bc97-4f50-96db-63ec3c06f37d.zip\n"}
+{"level":"debug","time":"2024-12-12T13:42:32.949+0530","caller":"storage/azure.go:59","msg":"Payload size: 14.03 MB, source path D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\hyperexecute-code-421c3eae-bc97-4f50-96db-63ec3c06f37d.zip"}
+{"level":"debug","time":"2024-12-12T13:42:32.965+0530","caller":"storage/azure.go:59","msg":"Payload size: 26.71 kB, source path C:\\Users\\AMITWA~1\\AppData\\Local\\Temp\\git.diff"}
+{"level":"debug","time":"2024-12-12T13:42:33.259+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2024-12-12T13:42:38.538+0530","caller":"storage/azure.go:114","msg":"File upload completed in 5.5728416s"}
+{"level":"info","time":"2024-12-12T13:42:49.006+0530","caller":"storage/azure.go:114","msg":"File upload completed in 16.0575096s"}
+{"level":"debug","time":"2024-12-12T13:42:49.007+0530","caller":"receptionmanager/setup.go:251","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-12-12T13:42:49.007+0530","caller":"receptionmanager/setup.go:280","msg":"number of entries in partialreports: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-12-12T13:42:49.007+0530","caller":"receptionmanager/setup.go:168","msg":"Uploading yaml : D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-12-12T13:42:49.008+0530","caller":"storage/azure.go:59","msg":"Payload size: 2.95 kB, source path D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\.updatedhyperexecute.yaml"}
+{"level":"info","time":"2024-12-12T13:42:54.251+0530","caller":"storage/azure.go:114","msg":"File upload completed in 5.2440419s"}
+{"level":"debug","time":"2024-12-12T13:42:54.255+0530","caller":"core/lifecycle.go:639","msg":"Successfully deleted code archive: D:\\demos\\hyperexecute\\appium01\\hyperexecute-appium-testng\\hyperexecute-code-421c3eae-bc97-4f50-96db-63ec3c06f37d.zip\n"}
+{"level":"debug","time":"2024-12-12T13:42:54.257+0530","caller":"storage/azure.go:59","msg":"Payload size: 400 B, source path yaml\\android\\mask-421c3eae-bc97-4f50-96db-63ec3c06f37d.yaml"}
+{"level":"info","time":"2024-12-12T13:42:58.539+0530","caller":"storage/azure.go:114","msg":"File upload completed in 4.2828422s"}
+{"level":"debug","time":"2024-12-12T13:43:00.226+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 385e2d6a-f1b3-4cfa-a43c-5b0e7a337196"}
+{"level":"debug","time":"2024-12-12T13:43:00.226+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 385e2d6a-f1b3-4cfa-a43c-5b0e7a337196"}
+{"level":"debug","time":"2024-12-12T13:43:00.227+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 36faa1b4-2b23-444b-8b3b-662029588da0"}
+{"level":"debug","time":"2024-12-12T13:43:00.227+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 36faa1b4-2b23-444b-8b3b-662029588da0"}
+{"level":"debug","time":"2024-12-12T13:43:00.227+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 2a2cc657-5f75-4431-a2bc-be8b452476f9"}
+{"level":"debug","time":"2024-12-12T13:43:00.227+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 2a2cc657-5f75-4431-a2bc-be8b452476f9"}
+{"level":"info","time":"2024-12-12T13:43:03.632+0530","caller":"jobmanager/sse_setup.go:85","msg":"\nJob 421c3eae-bc97-4f50-96db-63ec3c06f37d has started RUNNING"}
+{"level":"info","time":"2024-12-12T13:43:03.632+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=421c3eae-bc97-4f50-96db-63ec3c06f37d\n"}
+{"level":"info","time":"2024-12-12T13:43:07.056+0530","caller":"terminal/terminal.go:187","msg":"✔ [3]  cache-download (3s)\n"}
+{"level":"info","time":"2024-12-12T13:43:08.061+0530","caller":"terminal/terminal.go:187","msg":"✔ [1]  cache-download (2s)\n"}
+{"level":"info","time":"2024-12-12T13:43:08.416+0530","caller":"terminal/terminal.go:187","msg":"✔ [2]  cache-download (2s)\n"}
+{"level":"info","time":"2024-12-12T13:43:13.870+0530","caller":"terminal/terminal.go:187","msg":"✔ [3]  pre (7s)\n"}
+{"level":"info","time":"2024-12-12T13:43:14.656+0530","caller":"terminal/terminal.go:187","msg":"✔ [3]  discovery (1s)\n"}
+{"level":"info","time":"2024-12-12T13:43:15.504+0530","caller":"terminal/terminal.go:187","msg":"✔ [1]  pre (7s)\n"}
+{"level":"info","time":"2024-12-12T13:43:15.566+0530","caller":"terminal/terminal.go:187","msg":"✔ [2]  pre (8s)\n"}
+{"level":"info","time":"2024-12-12T13:43:16.312+0530","caller":"terminal/terminal.go:187","msg":"✔ [1]  discovery (1s)\n"}
+{"level":"info","time":"2024-12-12T13:43:16.316+0530","caller":"terminal/terminal.go:187","msg":"✔ [2]  discovery (1s)\n"}
+{"level":"info","time":"2024-12-12T13:43:55.491+0530","caller":"terminal/terminal.go:187","msg":"x [3]  Test_Notification_GeoLocation (32s)\n"}
+{"level":"info","time":"2024-12-12T13:43:56.339+0530","caller":"terminal/terminal.go:187","msg":"✔ [1]  Test_Change_Color (32s)\n"}
+{"level":"info","time":"2024-12-12T13:44:28.460+0530","caller":"terminal/terminal.go:187","msg":"x [3]  {retry 1} Test_Notification_GeoLocation (28s)\n"}
+{"level":"info","time":"2024-12-12T13:44:53.968+0530","caller":"terminal/terminal.go:187","msg":"x [2]  Test_Text_And_Toast (1m25s)\n"}
+{"level":"info","time":"2024-12-12T13:44:59.014+0530","caller":"terminal/terminal.go:187","msg":"x [3]  {retry 2} Test_Notification_GeoLocation (26s)\n"}
+{"level":"info","time":"2024-12-12T13:45:29.020+0530","caller":"terminal/terminal.go:187","msg":"x [3]  {retry 3} Test_Notification_GeoLocation (26s)\n"}
+{"level":"info","time":"2024-12-12T13:46:03.400+0530","caller":"terminal/terminal.go:187","msg":"x [3]  {retry 4} Test_Notification_GeoLocation (30s)\n"}
+{"level":"info","time":"2024-12-12T13:46:34.256+0530","caller":"terminal/terminal.go:187","msg":"✔ [3]  {retry 5} Test_Notification_GeoLocation (25s)\n"}
+{"level":"debug","time":"2024-12-12T13:46:39.434+0530","caller":"jobmanager/sse_setup.go:136","msg":"\n\nJob status"}
+{"level":"info","time":"2024-12-12T13:46:39.435+0530","caller":"core/lifecycle.go:724","msg":"taskId:36faa1b4-2b23-444b-8b3b-662029588da0 has failed with remark: completed\n"}
+{"level":"debug","time":"2024-12-12T13:46:39.436+0530","caller":"core/lifecycle.go:817","msg":"Context canceled"}
+{"level":"debug","time":"2024-12-12T13:46:39.436+0530","caller":"apiserver/setup.go:107","msg":"Shutting down the api server"}
+{"level":"info","time":"2024-12-12T13:46:39.436+0530","caller":"core/lifecycle.go:820","msg":"Stopping pipeline gracefully"}
+{"level":"error","time":"2024-12-12T13:46:39.436+0530","caller":"core/lifecycle.go:823","msg":"2024-12-12T13:42:03+05:30    error    Exiting with error: Failed tasks found."}
+{"level":"info","time":"2024-12-12T13:46:39.436+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=421c3eae-bc97-4f50-96db-63ec3c06f37d\n"}
+{"level":"debug","time":"2024-12-12T13:46:39.437+0530","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-12-12T13:46:39.437+0530","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2024-12-12T13:46:39.877+0530","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n FAILED \n"}
+{"level":"info","time":"2024-12-12T13:46:39.878+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Test Execution Time:                  2m48s"}
+{"level":"info","time":"2024-12-12T13:46:39.878+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Job Duration Time:                    3m35s"}
+{"level":"info","time":"2024-12-12T13:46:39.878+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Tasks:                          3"}
+{"level":"info","time":"2024-12-12T13:46:39.878+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Cumulative Time Consumed:             6m28s"}
+{"level":"info","time":"2024-12-12T13:46:39.878+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Stages:                         9"}
+{"level":"info","time":"2024-12-12T13:46:39.879+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass discovery stage percentage:      100.00%"}
+{"level":"info","time":"2024-12-12T13:46:39.879+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed discovery stage percentage:    0.00%"}
+{"level":"info","time":"2024-12-12T13:46:39.879+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass pre stage percentage:            100.00%"}
+{"level":"info","time":"2024-12-12T13:46:39.879+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed pre stage percentage:          0.00%"}
+{"level":"info","time":"2024-12-12T13:46:39.879+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass test stage percentage:           33.33%"}
+{"level":"info","time":"2024-12-12T13:46:39.880+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed test stage percentage:         66.67%"}
+{"level":"info","time":"2024-12-12T13:46:39.880+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass post stage percentage:           0.00%"}
+{"level":"info","time":"2024-12-12T13:46:39.880+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed post stage percentage:         0.00%"}
+{"level":"info","time":"2024-12-12T13:46:39.880+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed Tasks:                         1"}
+{"level":"info","time":"2024-12-12T13:46:39.880+0530","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"debug","time":"2024-12-12T13:47:09.443+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error Failed tasks found."}
+{"level":"debug","time":"2024-12-12T13:47:09.444+0530","caller":"cmd/bin.go:330","msg":"main: all goroutines have finished."}

@@ -1,0 +1,4 @@
+# Created at 2024-12-12T13:26:09.703
+Boot Manifest-JAR contains absolute paths in classpath 'D:\demos\hyperexecute\appium01\hyperexecute-appium-testng\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
